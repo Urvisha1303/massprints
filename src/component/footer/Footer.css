@@ -1,0 +1,12 @@
+.whitecolorfont{
+    color: var(--white);
+}
+
+
+.footerfontcolor:hover{
+    color: var(--blue-hover);
+}
+hr{
+    width: 100%;
+    
+}

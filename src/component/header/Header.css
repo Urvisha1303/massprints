@@ -1,0 +1,17 @@
+.gap{
+    column-gap: 2rem;
+}
+.fontcolor{
+    color: var(--black);
+    height: 79px;
+}
+.fontcolor.active{
+    color: var(--blue-hover);
+}
+.fontcolor:hover{
+    color: var(--blue-hover);
+    border-bottom-width: 1px;
+    border-color:var(--blue-hover);
+    
+    
+}

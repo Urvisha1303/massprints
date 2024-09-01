@@ -1,0 +1,31 @@
+.bg-color {
+  background-color: var(--offWhite);
+}
+
+.hrline hr {
+  border-color: var(--blue-hover);
+}
+
+.formname {
+  color: var(--light-black);
+}
+
+.inputnamecl {
+  color: var(--grayblack);
+}
+
+
+.btnsend {
+  background-color: var(--blue-hover);
+  opacity: 0.9;
+}
+
+.btnsend:hover {
+  background-color: #fff;
+  color: var(--blue-hover);
+  border: 1px solid var(--blue-hover);
+}
+.borderbt{
+    border-bottom-width: 1px;
+    border-color:var(--blue-hover);
+}

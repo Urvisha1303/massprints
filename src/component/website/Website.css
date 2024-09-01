@@ -1,0 +1,19 @@
+.fontclrh2{
+    color: var(--light-blue);
+}
+.fonthover:hover{
+    background-color: var(--light-blue) ;
+    border-radius: 100%;
+    color: var(--offWhite);
+}
+.hrline{
+  border-color: var(--blue-hover);
+  border-bottom-width: 1px;
+}
+
+.emailclr{
+    color: var(--blue-hover);
+}
+.posternamehover:hover{
+    color: var(--blue-hover);
+}
