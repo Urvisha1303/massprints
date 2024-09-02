@@ -2,15 +2,15 @@ import "./Website.css";
 import towersalon from "../../assets/TowerSalon.jpg";
 import missionstree from "../../assets/Mission-Stree.jpg";
 import dorset from "../../assets/Dorset-06.jpg";
-import mjgallery from "../../assets/Mjgallery001-768x432.jpg";
+import mjgallery from "../../assets/Mjgallery.jpg";
 import pursuit from "../../assets/Another-pursuit1.jpg";
 import delta from "../../assets/Delta365-home.jpg";
-import playground from "../../assets/the-playground-Theatre-home.jpg";
+import playground from "../../assets/The-Playground-Theatre-home.jpg";
 import kamera from "../../assets/KameraObscura-Home.jpg";
-import gbc from "../../assets/GBC-Home.jpg";
+import gbc from "../../assets/GBC-home.jpg";
 import musicart from "../../assets/MusicArt.jpg";
 import vin from "../../assets/VinSaveur.jpg";
-import americanjustice from "../../assets/American-justice.jpg";
+import americanjustice from "../../assets/American-Justice.jpg";
 import barreto from "../../assets/Barreto-.jpg";
 import mishcon from "../../assets/Mishcon-Architects.jpg";
 import lisa from "../../assets/Home.jpg";
@@ -18,12 +18,13 @@ import lyndons from "../../assets/Lyndons-home.jpg";
 import thorburn from "../../assets/Thorburn-home.jpg";
 import mike from "../../assets/mj-home2.jpg";
 import annie from "../../assets/Annie-Yim-home1.jpg";
-import johnfrase from "../../assets/johnFraserwebsite.jpg";
-import DesignCard from "./design-card";
-import WebsiteFeatureCard from "./website-feature-card";
-import GetInTouch from "../getintouch";
+import johnfrase from "../../assets/JohnFraserwebsite.jpg";
+import DesignCard from "./DesignCard";
+import WebsiteFeatureCard from "./WebsiteFeatureCard";
+import GetInTouch from "../GetInTouch";
 import Contactdetails from "../Contactdetails";
 import Map from "../Map";
+
 const Website = () => {
   return (
     <>

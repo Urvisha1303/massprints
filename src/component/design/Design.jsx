@@ -3,7 +3,7 @@ import "./Design.css";
 
 import ornella from "../../assets/Ornella-Iannuzzi.jpg";
 import Slider from "../Slider";
-import GetInTouch from "../getintouch";
+import GetInTouch from "../GetInTouch";
 import Contactdetails from "../Contactdetails";
 import Map from "../Map";
 

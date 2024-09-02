@@ -1,6 +1,6 @@
 import React from "react";
 import "./StartUp.css";
-import GetInTouch from "../getintouch";
+import GetInTouch from "../GetInTouch";
 import Contactdetails from "../Contactdetails";
 import Map from "../Map";
 import { Link } from "react-router-dom";

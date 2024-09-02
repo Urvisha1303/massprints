@@ -2,7 +2,7 @@ import React from "react";
 import "./DigitalPublication.css";
 import Slider from "../Slider";
 import ornella from "../../assets/Ornella-Iannuzzi.jpg";
-import GetInTouch from "../getintouch";
+import GetInTouch from "../GetInTouch";
 import Contactdetails from "../Contactdetails";
 import Map from "../Map";
 
