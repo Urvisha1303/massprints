@@ -6,6 +6,7 @@ import Design from "./component/design/Design";
 import Footer from "./component/footer/Footer";
 import Header from "./component/header/Header";
 import Website from "./component/website/Website";
+import DigitalPublication from "./component/digitalpublication/DigitalPublication";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/website" element={<Website />}></Route>
           <Route path="/design" element={<Design />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/digitalpublication" element={<DigitalPublication/>}></Route>
         </Routes>
 
         <Footer />

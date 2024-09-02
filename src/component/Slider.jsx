@@ -1,6 +1,6 @@
-import React from "react";
-import { Carousel, IconButton } from "@material-tailwind/react";
-const Slider = ({ sliderImage1, sliderImage2, sliderImage3 }) => {
+
+import { Carousel } from "@material-tailwind/react";
+const Slider = ({sliderImage1, sliderImage2, sliderImage3 }) => {
   return (
     <div>
      <Carousel className="rounded-xl">

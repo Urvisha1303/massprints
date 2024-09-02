@@ -171,12 +171,11 @@ const Header = () => {
             >
               start-up business
             </a>
-            <a
-              href="#"
+            <Link to={"/digitalpublication"}
               className="flex items-center gap-x-1 text-sm leading-6 uppercase fontcolor"
             >
               digital publications
-            </a>
+            </Link>
             <Link to={"/design"}
               className="flex items-center gap-x-1 text-sm leading-6 uppercase fontcolor "
             >

@@ -56,3 +56,6 @@
   --grayblack : #000000;
   --light-blue:rgb(25, 118, 210);
 }
+.lineclr{
+  color: var(--blue-hover);
+}
