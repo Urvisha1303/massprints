@@ -8,7 +8,7 @@ import Header from "./component/header/Header";
 import Website from "./component/website/Website";
 import DigitalPublication from "./component/digitalpublication/DigitalPublication";
 import StartUp from "./component/startup/StartUp";
-import MusicArt from "./component/startup/musicart";
+import MusicArt from "./component/startup/MusicArt";
 import RachelClare from "./component/startup/RachelClare";
 
 function App() {
