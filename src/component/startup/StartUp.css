@@ -1,0 +1,28 @@
+.bgimage1{
+    background-image: url(https://thelondonprinters.co.uk/wp-content/uploads/2019/01/TLP_startup02.jpg);
+    background-size: cover;
+    height: 450px;
+}
+
+.bgstartupimg{
+    background-image: url(https://thelondonprinters.co.uk/wp-content/uploads/2019/01/startup-price-1.png);
+    background-size: cover;
+    height: 540px;
+    width: 540px;
+}
+.fontsize1{
+    font-size: 233px;
+}
+
+
+
+.fontlightclr{
+    color: var(--light-blue);
+}
+
+.fonrclr{
+    color: #292929;
+}
+.startupmusic-fontclr{
+    color: var(--light-black);
+}

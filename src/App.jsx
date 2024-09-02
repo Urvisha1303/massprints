@@ -7,6 +7,9 @@ import Footer from "./component/footer/Footer";
 import Header from "./component/header/Header";
 import Website from "./component/website/Website";
 import DigitalPublication from "./component/digitalpublication/DigitalPublication";
+import StartUp from "./component/startup/StartUp";
+import MusicArt from "./component/startup/musicart";
+import RachelClare from "./component/startup/RachelClare";
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
           <Route path="/design" element={<Design />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/digitalpublication" element={<DigitalPublication/>}></Route>
+          <Route path="/startup" element={<StartUp/>}></Route>
+          <Route path="/musicart" element={<MusicArt/>}></Route>
+          <Route path="/rachelclare" element={<RachelClare/>}></Route>
         </Routes>
 
         <Footer />

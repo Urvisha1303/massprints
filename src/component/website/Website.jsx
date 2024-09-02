@@ -156,7 +156,7 @@ const Website = () => {
         </div>
       </section>
 
-     <GetInTouch/>
+      <GetInTouch name={"get in touch"} alignClass={"text-right"} position={"left-0"}/>
       <Contactdetails/>
       <Map/>
 

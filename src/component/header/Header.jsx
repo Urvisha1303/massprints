@@ -165,12 +165,11 @@ const Header = () => {
             >
               dirct mail
             </a>
-            <a
-              href="#"
+            <Link to={"/startup"}
               className="flex items-center gap-x-1 text-sm leading-6 uppercase fontcolor"
             >
               start-up business
-            </a>
+            </Link>
             <Link to={"/digitalpublication"}
               className="flex items-center gap-x-1 text-sm leading-6 uppercase fontcolor"
             >

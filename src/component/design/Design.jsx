@@ -2,11 +2,10 @@ import React from "react";
 import "./Design.css";
 
 import ornella from "../../assets/Ornella-Iannuzzi.jpg";
-// import Slider from "../Slider";
+import Slider from "../Slider";
 import GetInTouch from "../getintouch";
 import Contactdetails from "../Contactdetails";
 import Map from "../Map";
-import Slider from "../Slider";
 
 const Design = () => {
   return (
@@ -146,7 +145,7 @@ const Design = () => {
         </div>
       </section>
 
-      <GetInTouch/>
+      <GetInTouch name={"get in touch"} alignClass={"text-right"} position={"left-0"}/>
       <Contactdetails/>
       <Map/>
     </>

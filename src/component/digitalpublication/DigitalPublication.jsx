@@ -1,7 +1,10 @@
 import React from "react";
 import "./DigitalPublication.css";
 import Slider from "../Slider";
-
+import ornella from "../../assets/Ornella-Iannuzzi.jpg";
+import GetInTouch from "../getintouch";
+import Contactdetails from "../Contactdetails";
+import Map from "../Map";
 
 const DigitalPublication = () => {
   return (
@@ -54,13 +57,27 @@ const DigitalPublication = () => {
           </h1>
           <hr />
           <div className="lineclr mt-4 text-sm">
-            <a href="">Grove Square Galleries / Sierra Catalogue</a><br />
+            <a href="">Grove Square Galleries / Sierra Catalogue</a>
+            <br />
             <a href="">Hanga Ten / The Master and The Apprentice</a>
           </div>
         </div>
       </section>
 
-      <Slider/>
+      <div className="mx-20 mb-20">
+        <Slider
+          sliderImage1={ornella}
+          sliderImage2={
+            "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+          }
+          sliderImage3={
+            "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+          }
+        />
+      </div>
+      <GetInTouch name={"get in touch"} alignClass={"text-right"} position={"left-0"}/>
+      <Contactdetails/>
+      <Map/>
     </>
   );
 };
