@@ -159,12 +159,11 @@ const Header = () => {
             >
               weddings
             </a>
-            <a
-              href="#"
+            <Link to={"/directmail"}
               className="flex items-center gap-x-1 text-sm leading-6 uppercase fontcolor"
             >
               dirct mail
-            </a>
+            </Link>
             <Link to={"/startup"}
               className="flex items-center gap-x-1 text-sm leading-6 uppercase fontcolor"
             >

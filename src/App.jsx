@@ -10,6 +10,7 @@ import DigitalPublication from "./component/digitalpublication/DigitalPublicatio
 import StartUp from "./component/startup/StartUp";
 import MusicArt from "./component/startup/MusicArt";
 import RachelClare from "./component/startup/RachelClare";
+import DirectMail from "./component/directmail/DirectMail";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/startup" element={<StartUp/>}></Route>
           <Route path="/musicart" element={<MusicArt/>}></Route>
           <Route path="/rachelclare" element={<RachelClare/>}></Route>
+          <Route path="/directmail" element={<DirectMail/>}></Route >
         </Routes>
 
         <Footer />
