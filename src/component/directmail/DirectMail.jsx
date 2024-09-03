@@ -9,7 +9,7 @@ import Map from "../Map";
 const DirectMail = () => {
   return (
     <>
-      <div className="w-full bg-color  bgimage ">
+      <div className="w-full bg-color  bgimage1 ">
         <div className="h-96 py-20 mx-20 content-center	">
           <div>
             <h1 className="text-right text-6xl uppercase font-bold content-center text-white">

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const StartUp = () => {
   return (
     <>
-      <div className="w-full bg-color  bgimage1 ">
+      <div className="w-full bg-color  bgimage2 ">
         <div className="h-96 py-20 mx-20 content-center	">
           <div className=" mt-28">
             <h1 className="text-left text-6xl mb-8 uppercase font-bold content-center text-white">

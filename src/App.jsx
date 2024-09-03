@@ -11,13 +11,18 @@ import StartUp from "./component/startup/StartUp";
 import MusicArt from "./component/startup/MusicArt";
 import RachelClare from "./component/startup/RachelClare";
 import DirectMail from "./component/directmail/DirectMail";
+import Wedding from "./component/wedding/Wedding";
+import AllProduct from "./component/allproduct/AllProduct";
+import SaddleStitchedBooklets from "./component/allproduct/SaddleStitchedBooklets";
+import Brochures from "./component/allproduct/Brochures";
+import BusinessCards from "./component/allproduct/BusinessCards";
+
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Header />
-
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
@@ -29,10 +34,17 @@ function App() {
           <Route path="/musicart" element={<MusicArt/>}></Route>
           <Route path="/rachelclare" element={<RachelClare/>}></Route>
           <Route path="/directmail" element={<DirectMail/>}></Route >
-        </Routes>
+          <Route path="/wedding" element={<Wedding/>}></Route>
+          <Route path="/allproduct" element={<AllProduct/>} ></Route >
+          <Route path="/saddle-stitched-booklets" element={<SaddleStitchedBooklets/>}></Route>
+          <Route path="/brochures" element={<Brochures/>}></Route>
+          <Route path="/business-cards" element={<BusinessCards/>}> </Route>
 
+        </Routes>
         <Footer />
       </BrowserRouter>
+
+      {/* <MegaMenuProduct/> */}
     </>
   );
 }

@@ -3,7 +3,7 @@
 const MailDecription = ({ headername, details }) => {
   return (
       <div className="p-4 w-1/3 mb-14 flex  ">
-        <div className=" flexflex-wrap py-6 ">
+        <div className=" flex flex-wrap py-6 ">
           <h1 className="uppercase font-bold text-2xl text-black pb-6 borderbt inline-block">
             {headername}
           </h1>

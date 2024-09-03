@@ -1,0 +1,18 @@
+.bgimage{
+    background-image: url("https://thelondonprinters.co.uk/wp-content/uploads/2019/10/wedding.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 430px;
+}
+
+.borderbtblack{
+    border-bottom-width: 1px;
+    border-color:var(--black);
+}
+
+.borderblue{
+    border-color:var(--blue-hover);
+}
+.fontblue{
+    color: var(--blue-hover);
+}
