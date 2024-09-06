@@ -1,59 +1,124 @@
-import React from "react";
-import Card from "../Card";
-import AccordionComponent from "../AccordionComponent";
-import Map from "../Map";
-import HeadingContent from "../HeadingContent";
-import Table from "../Table";
-import EnquiryForm from "./EnquiryForm";
-import HeaderSection from "../HeaderSection";
-import DetailsSection from "../DetailsSection";
+import React from 'react'
+import AccordionComponent from '../AccordionComponent'
+import EnquiryForm from './EnquiryForm'
+import Map from '../Map'
+import HeadingContent from '../HeadingContent'
+import Card from '../Card'
+import HeaderSection from '../HeaderSection'
+import DetailsSection from '../DetailsSection'
 
-const BusinessCards = () => {
+const Banners = () => {
   return (
     <>
-      <HeaderSection name={" Business Cards"} />
+    <HeaderSection name={"Banners"} />
       <DetailsSection
         image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Business-cards-TLP2.jpg"
+          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_banners.jpg"
         }
         description={
           <>
-            With a variety of business card services available - from
-            fast-turnaround, digitally-printed cards to high-end embossed or
-            foil-blocked designs - we can help you prepare for every business
-            meeting and networking event.
+            Banners enhance your display and help promote your products
+            and events. Printed on specialist material, our banners come in
+            budget, standard and luxury options to suit every schedule and
+            budget.
           </>
         }
       />
 
       <section className="text-gray-600 body-font py-8 mx-16">
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-3">
           <Card
-            cardname="Paper stock"
+            cardname="Blurb Banner Stand and Poster"
             cardDetails={
               <>
                 <p>
-                  350gsm matt <br />
-                  350gsm Conqueror <br />
-                  400gsm silk
+                  Our lowest cost stand is perfect for occasional use and
+                  displaying posters at a fixed height of 2 metres. Unzip the
+                  carry case, flip out the feet, snap the 3 part pole together
+                  and unroll the poster. You'll be surprised just how huge these
+                  Blurb Banner Stands look.
                 </p>
               </>
             }
           />
-          <Card cardname="Printing Processes" cardDetails="Digital and Litho" />
           <Card
-            cardname="Finishing"
-            cardDetails="Matt lamination, Double-mounting or block-foiling available on request"
-          />
-          <Card
-            cardname="ARtwork"
+            cardname="Product specifications"
             cardDetails={
               <>
-                <b>Standard artwork size:</b>
                 <p>
-                  85 mm x 55 mm or 90 mm x 50 mm. <br /> <br />
-                  However, we’re able to print any size you wish.
+                  Poster: 800 x 2200mm <br />
+                  Visible graphic size: 800 x 2000mm <br />
+                  410gsm grey back film <br />
+                  Prevents light passing through <br />
+                  Suitable for indoor use only <br />
+                  Full process colour one side Printed with latex inks - water
+                  and UV resistant <br />
                 </p>
+                <p>
+                  {" "}
+                  <br />
+                  Silver roller banner stand <br />
+                  Twin twist out feet <br />
+                  Bungee pole <br />
+                  Assembled stand size: 815mm(w)x2090mm(h)x285mm(d) <br />
+                  Carry bag included
+                </p>
+              </>
+            }
+          />
+          <Card
+            cardname="Turnaround time"
+            cardDetails={
+              <>
+                <p>4 working days</p>
+              </>
+            }
+          />
+          <Card
+            cardname="Formal Banner Stand and Poster"
+            cardDetails={
+              <>
+                <p>
+                  Get your giant sales message in front of your customer's eyes
+                  whilst having the flexibility and convenience of moving it
+                  around your premises. The Formal stand frees up valuable wall
+                  space - ideal for gyms to promote new memberships, pubs and
+                  restaurants to encourage Christmas bookings and great for any
+                  communal areas for maximum impact.
+                </p>
+              </>
+            }
+          />
+
+          <Card
+            cardname="Product Specifications"
+            cardDetails={
+              <>
+                <p>
+                  Poster: 850 x 2200mm <br />
+                  Variable visible graphic height: 1560 - 2040mm <br />
+                  410gsm grey back film <br />
+                  Prevents light passing through <br />
+                  Suitable for indoor use only <br />
+                  Full process colour one side <br />
+                  Printed with latex inks - water and UV resistant
+                </p>
+                <p>
+                  Silver roller banner stand <br />
+                  Single rear twist out foot <br />
+                  Hybrid pole - half telescopic/half bungee <br />
+                  Variable assembled stand height: 1650 - 2180mm <br />
+                  Pole height maximum setting 2150mm <br />
+                  Padded carry bag included
+                </p>
+              </>
+            }
+          />
+          <Card
+            cardname="Turnaround time"
+            cardDetails={
+              <>
+                <p>4 working days</p>
               </>
             }
           />
@@ -164,18 +229,16 @@ const BusinessCards = () => {
           }
         />
       </div>
-
       <HeadingContent
-        headername={"Digital Business Cards"}
+        headername={
+          "for Roller Banners' pricing please give us a call on 020 3818 5750"
+        }
         textTranform={"uppercase"}
       />
-      <Table />
-
-      <EnquiryForm />
-
-      <Map />
+      <EnquiryForm/>
+      <Map/>
+    
     </>
-  );
-};
+)}
 
-export default BusinessCards;
+export default Banners

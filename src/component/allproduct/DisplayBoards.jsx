@@ -1,58 +1,63 @@
 import React from "react";
-import Card from "../Card";
-import AccordionComponent from "../AccordionComponent";
-import Map from "../Map";
-import HeadingContent from "../HeadingContent";
-import Table from "../Table";
-import EnquiryForm from "./EnquiryForm";
 import HeaderSection from "../HeaderSection";
 import DetailsSection from "../DetailsSection";
+import Card from "../Card";
+import AccordionComponent from "../AccordionComponent";
+import HeadingContent from "../HeadingContent";
+import EnquiryForm from "./EnquiryForm";
+import Map from "../Map";
 
-const BusinessCards = () => {
+const DisplayBoards = () => {
   return (
     <>
-      <HeaderSection name={" Business Cards"} />
+      <HeaderSection name="Display Boards" />
+
       <DetailsSection
         image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Business-cards-TLP2.jpg"
+          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Greeting-Cards-2.jpg"
         }
         description={
           <>
-            With a variety of business card services available - from
-            fast-turnaround, digitally-printed cards to high-end embossed or
-            foil-blocked designs - we can help you prepare for every business
-            meeting and networking event.
+            Greeting cards are an excellent way to delight and surprise loved
+            ones, and show them you care even when miles apart. With our
+            high-quality print and bespoke finishes you will be able to add an
+            extra-special touch to your best wishes and produce your own unique
+            cards for every occasion.{" "}
           </>
         }
       />
 
-      <section className="text-gray-600 body-font py-8 mx-16">
-        <div className="grid grid-cols-4">
+<section className="text-gray-600 body-font py-8 mx-16">
+      <div className="grid grid-cols-4">
           <Card
             cardname="Paper stock"
             cardDetails={
               <>
                 <p>
-                  350gsm matt <br />
-                  350gsm Conqueror <br />
-                  400gsm silk
+                  400 gsm silk art <br />
+                  300 gsm wove uncoated.
                 </p>
               </>
             }
           />
-          <Card cardname="Printing Processes" cardDetails="Digital and Litho" />
+          <Card
+            cardname="Printing Processes"
+            cardDetails="Litho Printing"
+           
+          />
           <Card
             cardname="Finishing"
-            cardDetails="Matt lamination, Double-mounting or block-foiling available on request"
+            cardDetails="Matt or gloss Lamination"
+           
           />
           <Card
             cardname="ARtwork"
             cardDetails={
               <>
-                <b>Standard artwork size:</b>
+                <b> Standard artwork size:</b>
                 <p>
-                  85 mm x 55 mm or 90 mm x 50 mm. <br /> <br />
-                  However, we’re able to print any size you wish.
+                  Oversize A5 (to fit A5 documents) <br />
+                  Oversize A4 (to fit A4 inserts)
                 </p>
               </>
             }
@@ -166,16 +171,13 @@ const BusinessCards = () => {
       </div>
 
       <HeadingContent
-        headername={"Digital Business Cards"}
+        headername={"for Digital and Litho folders' pricing please give us a call on 020 3818 5750"}
         textTranform={"uppercase"}
       />
-      <Table />
-
-      <EnquiryForm />
-
-      <Map />
+      <EnquiryForm/>
+      <Map/>
     </>
   );
 };
 
-export default BusinessCards;
+export default DisplayBoards;

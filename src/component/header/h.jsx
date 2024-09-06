@@ -17,7 +17,17 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-
+import {
+  Bars4Icon,
+  GlobeAmericasIcon,
+  NewspaperIcon,
+  PhoneIcon,
+  RectangleGroupIcon,
+  SquaresPlusIcon,
+  SunIcon,
+  TagIcon,
+  UserGroupIcon,
+} from "@heroicons/react/24/solid";
 
 const navListMenuItems = [
   { title: "Business Cards", path: "/business-cards" },
@@ -53,7 +63,8 @@ function NavListMenu() {
         <div>
           <Typography
             variant="h6"
-            className="flex items-center text-sm font-bold text-white"
+            color="blue-gray"
+            className="flex items-center text-sm font-bold"
           >
             {title}
           </Typography>
@@ -73,7 +84,7 @@ function NavListMenu() {
         <MenuHandler>
           <Typography as="div" variant="small" className="font-medium">
             <ListItem
-              className="flex items-center gap-2 py-2 pr-4 font-medium text-gray-900 text-white"
+              className="flex items-center gap-2 py-2 pr-4 font-medium text-gray-900"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -116,7 +127,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white ">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase ">
             Home
           </ListItem>
         </Link>
@@ -129,7 +140,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/wedding"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase">
           weddings
           </ListItem>
         </Link>
@@ -141,7 +152,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/directmail"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase">
           dirct mail
           </ListItem>
         </Link>
@@ -153,7 +164,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/startup"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase">
           start-up business
           </ListItem>
         </Link>
@@ -165,7 +176,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/digitalpublication"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase">
           digital publications
           </ListItem>
         </Link>
@@ -177,7 +188,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/design"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase">
           design
           </ListItem>
         </Link>
@@ -189,7 +200,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/website"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase">
           websites          </ListItem>
         </Link>
       </Typography>
@@ -200,7 +211,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/about"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase">
           about          </ListItem>
         </Link>
       </Typography>
@@ -211,7 +222,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/contact"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase">
             Contact Us
           </ListItem>
         </Link>
@@ -220,7 +231,7 @@ function NavList() {
   );
 }
 
-const Header = () => {
+export function MegaMenuDefault() {
   const [openNav, setOpenNav] = React.useState(false);
 
   React.useEffect(() => {
@@ -232,16 +243,16 @@ const Header = () => {
 
   return (
 
-      <div className="w-full">
-        <Navbar className="max-w-none bg-clr-blue rounded-none border-0 " >
-        <div className=" w-full h-20 py-4 flex items-center justify-between text-blue-gray-900">
+      <Navbar className="mx-auto max-w-screen-xl px-4 py-2">
+        <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
             variant="h6"
             className="mr-4 cursor-pointer py-1.5 lg:ml-2"
           >
             <Link to={"/"}>
-              <img src={headerimg} />
+              {/* <img src={headerimg} /> */}
+              material
             </Link>
           </Typography>
           <div className="hidden lg:block">
@@ -265,10 +276,6 @@ const Header = () => {
         </Collapse>
       </Navbar>
      
-       </div>
     
   );
 }
-
-
-export default Header;

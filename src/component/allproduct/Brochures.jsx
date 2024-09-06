@@ -2,46 +2,38 @@ import React from "react";
 import Card from "../Card";
 import AccordionComponent from "../AccordionComponent";
 import Map from "../Map";
+import EnquiryForm from "./EnquiryForm";
+import HeadingContent from "../HeadingContent";
+import HeaderSection from "../HeaderSection";
+import DetailsSection from "../DetailsSection";
 
 const Brochures = () => {
   return (
     <>
-      <div className="w-full h-auto bg-color">
-        <div className="h-68 py-20  mx-20 content-center	">
-          <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center	 ">
-              Folded <br />
-              BrochureS
-            </h1>
-          </div>
-        </div>
-        <div className="mx-20 hrline ">
-          <hr />
-        </div>
-      </div>
-
-      <section className="text-gray-600 body-font overflow-hidden">
-        <div className=" py-24 mx-16">
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <img
-              alt="ecommerce"
-              className="lg:w-1/2 w-full h-96 object-cover object-center rounded"
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_brochures.jpg"
-            />
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 self-center text-sm leading-6 text-black	">
-              <p>
-                A simple yet engaging product - our folded brochures come is a
-                variety of sizes and finishes, from DL to A4, from 100gsm paper
-                to 300gsm card, laminated either matt or gloss. There is also a
-                range of folding options to match the layout of your brochure.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <HeaderSection
+        name={
+          <>
+            Folded <br />
+            BrochureS{" "}
+          </>
+        }
+      />
+      <DetailsSection
+        image={
+          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_brochures.jpg"
+        }
+        description={
+          <>
+            A simple yet engaging product - our folded brochures come is a
+            variety of sizes and finishes, from DL to A4, from 100gsm paper to
+            300gsm card, laminated either matt or gloss. There is also a range
+            of folding options to match the layout of your brochure.
+          </>
+        }
+      />
 
       <section className="text-gray-600 body-font py-8 mx-16">
-        <div className="flex">
+        <div className="grid grid-cols-4">
           <Card
             cardname="Paper stock"
             cardDetails={
@@ -181,10 +173,18 @@ const Brochures = () => {
             </>
           }
         />
-
       </div>
 
-      <Map/>
+      <HeadingContent
+        headername={
+          "for Brochures pricing please give us a call on 020 3818 5750"
+        }
+        textTranform={"lowercase"}
+      />
+
+      <EnquiryForm />
+
+      <Map />
     </>
   );
 };

@@ -47,21 +47,35 @@ const Wedding = () => {
         </div>
       </section>
 
-      <section className="text-gray-600 body-font py-8 mx-16">
-        <div className="flex">
+      <section className="text-gray-600 body-font py-8 mx-16 mt-20 mb-10">
+        <div className="grid grid-cols-4">
           <Card
+            width={"w-1/4"}
             cardname="Paper stock"
-            cardDetails="350gsm / 700gsm Conqueror Smooth or Textured; GF Smith Colorplan"
+            cardDetails={
+              <>
+                350gsm / 700gsm Conqueror Smooth <br /> or Textured; GF Smith
+                Colorplan
+              </>
+            }
           />
-          <Card cardname="Printing Processes" cardDetails="Digital Colour" />
           <Card
+            width={"w-1/4"}
+            cardname="Printing Processes"
+            cardDetails="Digital Colour"
+          />
+          <Card
+            width={"w-1/4"}
             cardname="Finishing"
             cardDetails="Foil Blocking available on request"
           />
           <Card
+            width={"w-1/4"}
             cardname="Finishing"
-            cardDetails="Standard artwork size:
-A5 (portrait and landscape)"
+            cardDetails={<>
+            Standard artwork size: <br />
+            A5 (portrait and landscape)
+            </>}
           />
         </div>
       </section>
@@ -174,34 +188,122 @@ A5 (portrait and landscape)"
       <section className="text-gray-600 body-font">
         <div className="px-5 py-24 mx-20">
           <div className="flex flex-wrap -m-4">
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/4-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/16-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0040-683x683.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0045-683x683.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0048-683x683.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/20-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/19-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0086-683x683.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0069-683x683.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0993-683x683.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/21-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0105-683x683.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/18-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/25-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/28-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0113-683x683.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0973-683x683.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/11-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/15-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/7-768x768.jpg"}/>
-            <WeddingGridImage gridImage={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0989-683x683.jpg"}/>
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/4-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/16-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0040-683x683.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0045-683x683.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0048-683x683.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/20-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/19-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0086-683x683.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0069-683x683.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0993-683x683.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/21-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0105-683x683.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/18-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/25-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/28-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0113-683x683.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0973-683x683.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/11-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/15-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/7-768x768.jpg"
+              }
+            />
+            <WeddingGridImage
+              gridImage={
+                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/DSC_0989-683x683.jpg"
+              }
+            />
           </div>
         </div>
       </section>
 
-      <GetInTouch name={"get in touch"} alignClass={"text-right"} position={"left-0"}/>
-      <Contactdetails/>
-      <Map/>
+      <GetInTouch
+        name={"get in touch"}
+        alignClass={"text-right"}
+        position={"left-0"}
+      />
+      <Contactdetails />
+      <Map />
     </>
   );
 };

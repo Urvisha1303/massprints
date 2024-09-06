@@ -1,58 +1,61 @@
 import React from "react";
-import Card from "../Card";
 import AccordionComponent from "../AccordionComponent";
-import Map from "../Map";
-import HeadingContent from "../HeadingContent";
 import Table from "../Table";
 import EnquiryForm from "./EnquiryForm";
-import HeaderSection from "../HeaderSection";
+import Map from "../Map";
+import Card from "../Card";
 import DetailsSection from "../DetailsSection";
+import HeaderSection from "../HeaderSection";
 
-const BusinessCards = () => {
+const PerfectBoundDocument = () => {
   return (
     <>
-      <HeaderSection name={" Business Cards"} />
+      <HeaderSection name={" Perfect Bound Documents"} />
       <DetailsSection
         image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Business-cards-TLP2.jpg"
+          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Wire-binding-documents.jpg"
         }
         description={
           <>
-            With a variety of business card services available - from
-            fast-turnaround, digitally-printed cards to high-end embossed or
-            foil-blocked designs - we can help you prepare for every business
-            meeting and networking event.
+            {" "}
+            Wire binding is an excellent solution, especially when
+            professional-looking documents are required at short notice. Every
+            wire-bound document includes a transparent acetate cover and card at
+            the back, and can be printed on a variety of matt and silk stocks.
           </>
         }
       />
 
       <section className="text-gray-600 body-font py-8 mx-16">
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-3">
           <Card
             cardname="Paper stock"
             cardDetails={
               <>
                 <p>
-                  350gsm matt <br />
-                  350gsm Conqueror <br />
-                  400gsm silk
+                  Inserts – choice of: <br />
+                  100gsm silk <br />
+                  160gsm silk <br />
+                  170gsm matt <br />
+                  <br />
+                  Covers – choice of: <br />
+                  300gsm matt <br />
+                  350gsm silk
                 </p>
               </>
             }
           />
-          <Card cardname="Printing Processes" cardDetails="Digital and Litho" />
-          <Card
-            cardname="Finishing"
-            cardDetails="Matt lamination, Double-mounting or block-foiling available on request"
-          />
+          <Card cardname="Printing Processes" cardDetails="Digital" />
+          <Card cardname="Finishing" cardDetails="Wire-binding" />
           <Card
             cardname="ARtwork"
             cardDetails={
               <>
-                <b>Standard artwork size:</b>
+                <b> Standard size:</b>
                 <p>
-                  85 mm x 55 mm or 90 mm x 50 mm. <br /> <br />
-                  However, we’re able to print any size you wish.
+                  A5 (210 x 148 mm) <br />
+                  A4 (210 x 297 mm) <br />
+                  A3 (297 x 420mm)
                 </p>
               </>
             }
@@ -165,17 +168,11 @@ const BusinessCards = () => {
         />
       </div>
 
-      <HeadingContent
-        headername={"Digital Business Cards"}
-        textTranform={"uppercase"}
-      />
       <Table />
-
       <EnquiryForm />
-
       <Map />
     </>
   );
 };
 
-export default BusinessCards;
+export default PerfectBoundDocument;

@@ -18,8 +18,8 @@ const AllProduct = () => {
         </div>
       </div>
 
-      <section className="text-gray-600 body-font mx-16 my-32">
-        <div className="container px-5 mb-28 mx-auto">
+      <section className="text-gray-600 body-font mx-16 my-32 h-auto">
+        <div className="px-5 mb-28 mx-auto">
           <div className="flex flex-wrap -m-4">
             <DesignCard
               cardImagePath={

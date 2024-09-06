@@ -1,58 +1,51 @@
-import React from "react";
-import Card from "../Card";
-import AccordionComponent from "../AccordionComponent";
-import Map from "../Map";
-import HeadingContent from "../HeadingContent";
-import Table from "../Table";
-import EnquiryForm from "./EnquiryForm";
-import HeaderSection from "../HeaderSection";
-import DetailsSection from "../DetailsSection";
+import React from 'react'
+import AccordionComponent from '../AccordionComponent'
+import Table from '../Table'
+import EnquiryForm from './EnquiryForm'
+import Map from '../Map'
+import DetailsSection from '../DetailsSection'
+import HeaderSection from '../HeaderSection'
+import Card from '../Card'
 
-const BusinessCards = () => {
+const PostersLargeFormat = () => {
   return (
     <>
-      <HeaderSection name={" Business Cards"} />
+      <HeaderSection name={"Posters"} />
       <DetailsSection
         image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Business-cards-TLP2.jpg"
+          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_posters.jpg"
         }
         description={
           <>
-            With a variety of business card services available - from
-            fast-turnaround, digitally-printed cards to high-end embossed or
-            foil-blocked designs - we can help you prepare for every business
-            meeting and networking event.
+            We produce eye-catching posters on a range of stocks at a variety of
+            popular sizes. Get in touch for more information about how to
+            enhance and personalise your display.
           </>
         }
       />
-
       <section className="text-gray-600 body-font py-8 mx-16">
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-3">
           <Card
             cardname="Paper stock"
             cardDetails={
               <>
                 <p>
-                  350gsm matt <br />
-                  350gsm Conqueror <br />
-                  400gsm silk
+                  120gsm matt <br />
+                  190gsm photo satin
                 </p>
               </>
             }
           />
-          <Card cardname="Printing Processes" cardDetails="Digital and Litho" />
-          <Card
-            cardname="Finishing"
-            cardDetails="Matt lamination, Double-mounting or block-foiling available on request"
-          />
+          <Card cardname="Printing Processes" cardDetails="Large Format" />
           <Card
             cardname="ARtwork"
             cardDetails={
               <>
-                <b>Standard artwork size:</b>
+                <b> Standard artwork size:</b>
                 <p>
-                  85 mm x 55 mm or 90 mm x 50 mm. <br /> <br />
-                  However, we’re able to print any size you wish.
+                  A2 (420mm x 594mm) <br />
+                  A1 (594mm x 841mm) <br />
+                  A0 (841mm x 1189mm)
                 </p>
               </>
             }
@@ -165,17 +158,11 @@ const BusinessCards = () => {
         />
       </div>
 
-      <HeadingContent
-        headername={"Digital Business Cards"}
-        textTranform={"uppercase"}
-      />
       <Table />
-
-      <EnquiryForm />
-
+      <EnquiryForm/>
       <Map />
     </>
-  );
-};
+  )
+}
 
-export default BusinessCards;
+export default PostersLargeFormat

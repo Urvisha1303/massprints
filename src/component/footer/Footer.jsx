@@ -8,7 +8,7 @@ import amex from "../../assets/amex.png";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black dark:bg-gray-900 px-8">
+      <footer className="bg-clr-blue dark:bg-gray-900 px-8">
         <div className="mx-auto w-full max-w-screen-xl">
           <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
             <div>
@@ -288,8 +288,8 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <hr  className="bg-black"/>
-      <div className="bg-black dark:bg-gray-900 px-8">
+      <hr  className="bg-clr-blue"/>
+      <div className="bg-clr-blue dark:bg-gray-900 px-8">
       <div className="px-4 py-6  md:flex md:items-center md:justify-between">
         <span className="text-sm whitecolorfont  sm:text-center hitecolorfont">
           © 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights

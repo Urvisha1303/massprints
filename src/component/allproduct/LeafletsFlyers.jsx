@@ -1,59 +1,54 @@
 import React from "react";
 import Card from "../Card";
 import AccordionComponent from "../AccordionComponent";
-import Map from "../Map";
 import HeadingContent from "../HeadingContent";
 import Table from "../Table";
 import EnquiryForm from "./EnquiryForm";
+import Map from "../Map";
 import HeaderSection from "../HeaderSection";
 import DetailsSection from "../DetailsSection";
 
-const BusinessCards = () => {
+const LeafletsFlyers = () => {
   return (
     <>
-      <HeaderSection name={" Business Cards"} />
+      <HeaderSection name={"leaflets & flyers"} />
       <DetailsSection
         image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Business-cards-TLP2.jpg"
+          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2.jpg"
         }
         description={
           <>
-            With a variety of business card services available - from
-            fast-turnaround, digitally-printed cards to high-end embossed or
-            foil-blocked designs - we can help you prepare for every business
-            meeting and networking event.
+            Our leaflets and flyers are available on a variety of stock options
+            and weights, at any size and quantity. The leaflets and flyers can
+            be produced flat or folded, and quick turnaround services are
+            available.
           </>
         }
       />
 
       <section className="text-gray-600 body-font py-8 mx-16">
-        <div className="grid grid-cols-4">
+      <div className="grid grid-cols-3">
           <Card
             cardname="Paper stock"
             cardDetails={
               <>
                 <p>
-                  350gsm matt <br />
-                  350gsm Conqueror <br />
-                  400gsm silk
+                  160gsm silk <br />
+                  170gsm matt
                 </p>
               </>
             }
           />
-          <Card cardname="Printing Processes" cardDetails="Digital and Litho" />
           <Card
-            cardname="Finishing"
-            cardDetails="Matt lamination, Double-mounting or block-foiling available on request"
+            cardname="Printing Processes"
+            cardDetails="Digital or litho"
           />
           <Card
             cardname="ARtwork"
             cardDetails={
               <>
-                <b>Standard artwork size:</b>
-                <p>
-                  85 mm x 55 mm or 90 mm x 50 mm. <br /> <br />
-                  However, we’re able to print any size you wish.
-                </p>
+                <b> Standard artwork size:</b>
+                <p>A6 or A5</p>
               </>
             }
           />
@@ -166,16 +161,21 @@ const BusinessCards = () => {
       </div>
 
       <HeadingContent
-        headername={"Digital Business Cards"}
+        headername={"Digital A6 Leaflets printed on 160gsm silk or 170gsm Matt"}
+        textTranform={"uppercase"}
+      />
+      <Table />
+
+      <HeadingContent
+        headername={"Digital A5 Leaflets printed on 160gsm silk or 170gsm Matt"}
         textTranform={"uppercase"}
       />
       <Table />
 
       <EnquiryForm />
-
       <Map />
     </>
   );
 };
 
-export default BusinessCards;
+export default LeafletsFlyers;

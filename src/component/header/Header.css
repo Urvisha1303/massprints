@@ -2,7 +2,7 @@
     column-gap: 2rem;
 }
 .fontcolor{
-    color: var(--black);
+    color: var(--white);
     height: 79px;
 }
 .fontcolor.active{
@@ -14,5 +14,8 @@
     border-color:var(--blue-hover);
     
     
+}
+.bg-clr-blue{
+    background-color: var(--blue);
 }
 

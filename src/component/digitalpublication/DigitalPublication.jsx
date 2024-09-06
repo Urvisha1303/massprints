@@ -5,20 +5,13 @@ import ornella from "../../assets/Ornella-Iannuzzi.jpg";
 import GetInTouch from "../GetInTouch";
 import Contactdetails from "../Contactdetails";
 import Map from "../Map";
+import HeaderSection from "../HeaderSection";
 
 const DigitalPublication = () => {
   return (
     <>
-      <div className="w-full bg-color  bgimage3 ">
-        <div className="h-96 py-20 mx-20 content-center	">
-          <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center text-white">
-              Digital <br />
-              Publications
-            </h1>
-          </div>
-        </div>
-      </div>
+      <HeaderSection name={<>Digital <br />
+        Publications</>}/>
 
       <section className="text-gray-600 body-font">
         <div className="container flex flex-wrap px-5 pt-16 pb-12 mx-16 items-center">

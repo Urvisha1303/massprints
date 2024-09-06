@@ -47,6 +47,7 @@
 }
 
 :root{
+  --blue:#131a3c;
   --blue-hover: #1976d2;
   --bg-black : rgba(0, 0, 0, 0.7);
   --white : #fff;

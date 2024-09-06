@@ -2,45 +2,21 @@ import React from "react";
 import Card from "../Card";
 import AccordionComponent from "../AccordionComponent";
 import Map from "../Map";
+import EnquiryForm from "./EnquiryForm";
+import HeaderSection from "../HeaderSection";
+import DetailsSection from "../DetailsSection";
 
 const SaddleStitchedBooklets = () => {
   return (
     <>
-      <div className="w-full h-auto bg-color">
-        <div className="h-68 py-20  mx-20 content-center	">
-          <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center	 ">
-              Saddle stitched <br />
-              Booklets
-            </h1>
-          </div>
-        </div>
-        <div className="mx-20 hrline ">
-          <hr />
-        </div>
-      </div>
-
-      <section className="text-gray-600 body-font overflow-hidden">
-        <div className=" py-24 mx-16">
-          <div className="lg:w-4/5 mx-auto flex flex-wrap">
-            <img
-              alt="ecommerce"
-              className="lg:w-1/2 w-full h-96 object-cover object-center rounded"
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_products_lookbook.jpg"
-            />
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 self-center text-sm leading-6 text-black	">
-              <p>
-                Our saddle-stitched and perfect-bound booklets will help you
+    <HeaderSection name={<>Saddle Stitched <br /> Booklets</>}/>
+    <DetailsSection image={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_products_lookbook.jpg"} description={<> Our saddle-stitched and perfect-bound booklets will help you
                 make an impression on your clients, presenting your products and
-                services in a high-quality, professional form.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+                services in a high-quality, professional form.</>}/>
+
 
       <section className="text-gray-600 body-font py-8 mx-16">
-        <div className="flex">
+      <div className="grid grid-cols-3">
           <Card
             cardname="Paper stock"
             cardDetails={
@@ -178,10 +154,11 @@ const SaddleStitchedBooklets = () => {
             </>
           }
         />
-
       </div>
 
-      <Map/>
+    
+<EnquiryForm/>
+      <Map />
     </>
   );
 };
