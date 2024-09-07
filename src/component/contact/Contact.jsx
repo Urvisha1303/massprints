@@ -8,13 +8,13 @@ const Contact = () => {
       <div className="w-full h-auto bg-color">
         <div className="h-96 py-20 mx-20 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center	 ">
+            <h1 className="text-right text-6xl uppercase font-bold content-center fontclr	 ">
               Let's Get <br />
               Connected
             </h1>
           </div>
         </div>
-        <div className="mx-20 hrline border-1 ">
+        <div className="mx-20 hrline border-0 ">
           <hr />
         </div>
       </div>
@@ -42,7 +42,7 @@ const Contact = () => {
               Opening Hours
             </h1>
             <hr />
-            <p className="mt-3 formname text-sm leading-7">
+            <p className="mt-3 formname leading-7 text-sm">
               Monday- Friday <br /> 10:00AM- 5:00PM
             </p>
           </div>
@@ -82,34 +82,34 @@ const Contact = () => {
         </div>
         <div className="col-span-2 mr-20 ml-6 leading-10 uppercase">
           <form action="">
-            <label htmlFor=" " className="text-xs formname">
+            <label htmlFor=" " className="text-sm formname">
               Name (Required)
             </label>
             <br />
             <input
               type="text"
               placeholder="Your Name"
-              className=" rounded-md w-full h-10 border-x border-y pl-4  box-border text-sm inputnamecl mb-2 uppercase"
+              className=" rounded-md w-full h-10 border-x border-y pl-4  box-border text-xs inputnamecl mb-2 uppercase"
             />
-            <label htmlFor=" " className="text-xs formname">
+            <label htmlFor=" " className="text-sm formname">
               Email (required)
             </label>
             <br />
             <input
               type="text"
               placeholder="Your Email"
-              className=" rounded-md w-full h-10 border-x border-y pl-4  box-border text-sm inputnamecl mb-2 uppercase"
+              className=" rounded-md w-full h-10 border-x border-y pl-4  box-border text-xs inputnamecl mb-2 uppercase"
             />
-            <label htmlFor=" " className="text-xs formname">
+            <label htmlFor=" " className="text-sm formname">
               Phone
             </label>
             <br />
             <input
               type="text"
               placeholder="Your Phone"
-              className=" rounded-md w-full h-10 border-x border-y pl-4  box-border text-sm inputnamecl mb-2 uppercase"
+              className=" rounded-md w-full h-10 border-x border-y pl-4  box-border text-xs inputnamecl mb-2 uppercase"
             />
-            <label htmlFor=" " className="text-xs formname">
+            <label htmlFor=" " className="text-sm formname">
               Message
             </label>
             <br />
@@ -118,19 +118,19 @@ const Contact = () => {
               name=""
               id=""
               placeholder="Your Message"
-              className="rounded-md w-full h-48 border-x border-y pl-4 box-border text-sm inputnamecl pt-2 max-h-fit uppercase "
+              className="rounded-md w-full h-48 border-x border-y pl-4 box-border text-xs inputnamecl pt-2 max-h-fit uppercase "
             ></textarea>
             <br />
             <button
               type="button"
-              className="text-white bg-blue-700 hrline font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 uppercase btnsend"
+              className="border-0 hrline font-medium text-sm px-5 py-2.5 me-2 mb-2 uppercase btnsend rounded-sm w-28 h-10"
             >
               send
             </button>
           </form>
         </div>
       </div>
-      <Map />
+      {/* <Map /> */}
     </>
   );
 };

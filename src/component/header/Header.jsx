@@ -17,7 +17,8 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-
+import headerimg from "../../assets/1.png";
+import "./Header.css";
 
 const navListMenuItems = [
   { title: "Business Cards", path: "/business-cards" },
@@ -41,19 +42,18 @@ const navListMenuItems = [
   { title: "Window Stickers", path: "/window-stickers" },
   { title: "Wire Bound Documents", path: "/wire-bound-documents" },
 ];
-import headerimg from "../../assets/1.png";
-import "./Header.css";
+
 function NavListMenu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
   const renderItems = navListMenuItems.map(({ title, path }, key) => (
     <Link to={path} key={key}>
-      <MenuItem className="flex items-center gap-3 rounded-lg hover:bg-transparent">
+      <MenuItem className="flex items-center gap-3 rounded-lg  dropdownmenuhover bg-transparent-50/50">
         <div>
           <Typography
             variant="h6"
-            className="flex items-center text-sm font-bold text-white"
+            className="flex items-center text-sm font-bold text-white  border-0  dropdownmenuhover bg-transparent-50/50 "
           >
             {title}
           </Typography>
@@ -71,13 +71,19 @@ function NavListMenu() {
         placement="bottom"
       >
         <MenuHandler>
-          <Typography as="div" variant="small" className="font-medium">
+          <Typography
+            as="div"
+            variant="small"
+            className="font-medium hoverblue"
+          >
             <ListItem
-              className="flex items-center gap-2 py-2 pr-4 font-medium text-gray-900 text-white"
+              className="flex items-center gap-2 py-2 pr-4 font-medium text-gray-900 text-white hoverblue bg-transparent-50/50 "
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
-              Resources
+              <Link to="/allproduct">
+              All Products
+              </Link>
               <ChevronDownIcon
                 strokeWidth={2.5}
                 className={`hidden h-3 w-3 transition-transform lg:block ${
@@ -93,13 +99,13 @@ function NavListMenu() {
             </ListItem>
           </Typography>
         </MenuHandler>
-        <MenuList className="hidden max-w-screen-xl rounded-xl lg:block">
-          <ul className="grid grid-cols-3 gap-y-2 outline-none outline-0">
+        <MenuList className="hidden max-w-screen-xl rounded-xl lg:block bg-clr-blue border-0">
+          <ul className="grid grid-cols-3 gap-y-2 outline-none outline-0  ">
             {renderItems}
           </ul>
         </MenuList>
       </Menu>
-      <div className="block lg:hidden">
+      <div className="block lg:hidden ">
         <Collapse open={isMobileMenuOpen}>{renderItems}</Collapse>
       </div>
     </React.Fragment>
@@ -108,7 +114,7 @@ function NavListMenu() {
 
 function NavList() {
   return (
-    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1">
+    <List className="mt-4 mb-6 p-0 lg:mt-0 lg:mb-0 lg:flex-row lg:p-1 bg-clr-blue">
       <Typography
         as="a"
         variant="small"
@@ -116,21 +122,16 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white ">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
             Home
           </ListItem>
         </Link>
       </Typography>
       <NavListMenu />
-      <Typography
-        as="a"
-        variant="small"
-        color="blue-gray"
-        className="font-medium"
-      >
-        <Link to={"/wedding"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
-          weddings
+      <Typography as="a" variant="small" className="font-medium">
+        <Link to={"/wedding"} className="bg-clr-blue">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
+            weddings
           </ListItem>
         </Link>
       </Typography>
@@ -141,8 +142,8 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/directmail"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
-          dirct mail
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
+            dirct mail
           </ListItem>
         </Link>
       </Typography>
@@ -153,8 +154,8 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/startup"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
-          start-up business
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
+            start-up business
           </ListItem>
         </Link>
       </Typography>
@@ -165,8 +166,8 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/digitalpublication"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
-          digital publications
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
+            digital publications
           </ListItem>
         </Link>
       </Typography>
@@ -177,8 +178,8 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/design"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
-          design
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
+            design
           </ListItem>
         </Link>
       </Typography>
@@ -189,8 +190,9 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/website"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
-          websites          </ListItem>
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
+            websites{" "}
+          </ListItem>
         </Link>
       </Typography>
       <Typography
@@ -200,8 +202,9 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/about"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
-          about          </ListItem>
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
+            about{" "}
+          </ListItem>
         </Link>
       </Typography>
       <Typography
@@ -211,7 +214,7 @@ function NavList() {
         className="font-medium"
       >
         <Link to={"/contact"}>
-          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white">
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
             Contact Us
           </ListItem>
         </Link>
@@ -231,9 +234,8 @@ const Header = () => {
   }, []);
 
   return (
-
-      <div className="w-full">
-        <Navbar className="max-w-none bg-clr-blue rounded-none border-0 " >
+    <div className="w-full">
+      <Navbar className="max-w-none bg-clr-blue rounded-none border-0 ">
         <div className=" w-full h-20 py-4 flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
@@ -241,7 +243,7 @@ const Header = () => {
             className="mr-4 cursor-pointer py-1.5 lg:ml-2"
           >
             <Link to={"/"}>
-              <img src={headerimg} />
+              <img src={headerimg} className="w-full h-28" />
             </Link>
           </Typography>
           <div className="hidden lg:block">
@@ -264,11 +266,8 @@ const Header = () => {
           <NavList />
         </Collapse>
       </Navbar>
-     
-       </div>
-    
+    </div>
   );
-}
-
+};
 
 export default Header;

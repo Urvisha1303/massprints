@@ -1,3 +1,14 @@
-.lineclr{
-    color: var(--blue-hover);
+.lineclr {
+  color: var(--yellow);
+}
+.fontclr {
+  color: var(--blue);
+}
+
+.bg-clr-design {
+  background-color: var(--blue);
+  color: white;
+}
+.clr-design{
+    color: white;
 }

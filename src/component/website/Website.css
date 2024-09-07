@@ -7,13 +7,25 @@
     color: var(--offWhite);
 }
 .hrline{
-  border-color: var(--blue-hover);
+  border-color: var(--yellow);
   border-bottom-width: 1px;
 }
 
 .emailclr{
-    color: var(--blue-hover);
+    color: var(--yellow);
 }
 .posternamehover:hover{
     color: var(--blue-hover);
 }
+.fontclr {
+    color: var(--blue);
+  }
+
+  .border-blue{
+border-color: var(--yellow);
+  }
+
+  .borderbtblack{
+    border-bottom-width: 1px;
+    border-color: var(--yellow);
+  }

@@ -5,7 +5,7 @@ const HeaderSection = ({name}) => {
     <div className="w-full h-auto bg-color">
         <div className="h-68 py-20  mx-20 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center	 ">
+            <h1 className="text-right text-6xl uppercase font-bold content-center	fontclr  ">
               {name}
             </h1>
           </div>

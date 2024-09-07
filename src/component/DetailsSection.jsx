@@ -10,7 +10,7 @@ const DetailsSection = ({image, description}) => {
               className="lg:w-1/2 w-full h-96 object-cover object-center rounded"
               src={image}
             />
-            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 self-center text-sm leading-6 text-black	">
+            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 self-center text-lg leading-6 text-black	">
               <p>
                 {description}
               </p>

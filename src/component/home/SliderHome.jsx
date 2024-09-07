@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Home.css'
 
 const SliderHome = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -51,11 +52,11 @@ const SliderHome = () => {
   return (
     <div
       id="indicators-carousel"
-      className="relative bg-color mx-20 my-20"
+      className="relative bg-color mx-20 my-20 "
       data-carousel="static"
     >
       {/* Carousel wrapper */}
-      <div className="relative h-56 md:h-80 flex justify-center items-center overflow-hidden rounded-lg">
+      <div className="relative h-56 md:h-80 flex justify-center items-center overflow-hidden rounded-lg   sliderbg">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -64,9 +65,9 @@ const SliderHome = () => {
             }`}
           >
             {slide.type === "text" && (
-              <blockquote className="text-center p-8 px-60 text-xl pb-20">
+              <blockquote className="text-center p-8 px-60 text-xl pb-20 text-white">
                 {slide.content}
-                <h1 className="mt-4 text-lg font-semibold">{slide.name}</h1>
+                <h1 className="mt-4 text-lg font-semibold sliderbg">{slide.name}</h1>
               </blockquote>
             )}
           </div>
@@ -80,7 +81,7 @@ const SliderHome = () => {
             type="button"
             onClick={() => handleButtonClick(index)}
             className={`w-3 h-3 rounded-full transition-colors duration-300 ease-in-out transform ${
-              index === activeButton ? "bg-black scale-125" : "bg-gray-400"
+              index === activeButton ? "bg-amber-500" : "bg-gray-400"
             }`}
             aria-label={`Slide ${index + 1}`}
           />

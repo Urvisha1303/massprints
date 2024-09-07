@@ -25,23 +25,26 @@ import GetInTouch from "../GetInTouch";
 import Contactdetails from "../Contactdetails";
 import Map from "../Map";
 
+
 const Website = () => {
   return (
     <>
       <div className="w-full h-auto bg-color">
         <div className="h-68 py-20  mx-20 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center	 ">
+            <h1 className="text-right text-6xl uppercase font-bold content-center	fontclr ">
               Web Design
             </h1>
           </div>
         </div>
-        <div className="mx-20 hrline border-1 ">
+        <div className="mx-20 hrline border-0 ">
           <hr />
         </div>
       </div>
+
+
       <section className="text-gray-600 body-font">
-        <div className="container px-5 pt-40 pb-20 mx-auto">
+        <div className=" px-5 pt-40 pb-20 mx-20">
           <div className="flex flex-col text-center w-full mb-20">
             <h2 className="text-xl leading-loose mb-1 tracking-widest">
               OUR WEBSITES
@@ -98,7 +101,7 @@ const Website = () => {
       </section>
 
       <section className="text-gray-600 body-font mx-16">
-        <div className="container px-5 mb-28 mx-auto">
+        <div className="mx-20 px-5 mb-28">
           <div className="flex flex-wrap -m-4">
             <DesignCard cardImagePath={towersalon} cardText={"Tower Salon"} />
             <DesignCard
@@ -157,10 +160,12 @@ const Website = () => {
         </div>
       </section>
 
-      <GetInTouch name={"get in touch"} alignClass={"text-right"} position={"left-0"}/>
-      <Contactdetails/>
-      <Map/>
-
+      <GetInTouch
+        name={"get in touch"}
+        alignClass={"text-right"}
+        position={"left-0"}
+      />
+      <Contactdetails />
       
     </>
   );

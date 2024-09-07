@@ -1,7 +1,18 @@
-.bgimage3{
-    background-image: url('https://thelondonprinters.co.uk/wp-content/uploads/2020/11/Digital-Publications.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 430px;
-    
+.bgimage3 {
+  background-image: url("https://thelondonprinters.co.uk/wp-content/uploads/2020/11/Digital-Publications.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 430px;
+}
+
+.bg-clr-design {
+  background-color: var(--blue);
+  color: white;
+}
+.clr-design {
+  color: white;
+}
+
+.text-clr {
+  color: var(--blue);
 }

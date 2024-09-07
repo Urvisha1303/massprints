@@ -8,3 +8,18 @@
 .mailclr{
     color: var(--light-black);
 }
+
+.bg-clr-design {
+    background-color: var(--blue);
+    color: white;
+  }
+  .clr-design {
+    color: white;
+  }
+  
+  .text-clr {
+    color: var(--blue);
+  }
+  .fontclr {
+    color: var(--blue);
+  }

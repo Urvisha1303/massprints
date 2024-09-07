@@ -1,3 +1,9 @@
 .bghomeclr{
-    background-color: gray;
+    background-color:  var(--yellow);
+    color: var(--blue);
+}
+
+.sliderbg{
+    background-color: var(--blue);
+    color: var(--yellow);
 }

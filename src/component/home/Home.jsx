@@ -61,20 +61,22 @@ const Home = () => {
         <hr className="w-full hrline" />
       </div>
 
-      <div className="mx-20 mt-20 mb-40">
-        <div className="bg-black	 w-full h-40 ">
-          <h1 className="text-center text-white	pt-6 text-2xl">
-            Stay up to date and receive our latest promotions{" "}
-          </h1>
-          <div className="flex justify-center mt-6 h-20 ">
-            <input
-              type="text"
-              placeholder="Email Address"
-              className="width-full h-8 w-96 bg-offwhite rounded-sm pl-4 text-sm"
-            />
-            <button className="h-8 w-28 bg-offwhite ml-2 rounded-sm text-white uppercase text-sm bg-zinc-300	bghomeclr">
-              Subscribe
-            </button>
+      <div className="sliderbg ">
+        <div className="mx-20 mt-20 mb-40 ">
+          <div className="sliderbg w-full h-40 ">
+            <h1 className="text-center pt-6 text-2xl">
+              Stay up to date and receive our latest promotions{" "}
+            </h1>
+            <div className="flex justify-center mt-6 h-20 ">
+              <input
+                type="text"
+                placeholder="Email Address"
+                className="width-full h-8 w-96 bg-offwhite rounded-sm pl-4 text-sm"
+              />
+              <button className="h-8 w-28 bg-offwhite ml-2 rounded-sm uppercase text-sm bg-zinc-300	bghomeclr">
+                Subscribe
+              </button>
+            </div>
           </div>
         </div>
       </div>

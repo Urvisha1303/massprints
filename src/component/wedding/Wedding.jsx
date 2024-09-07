@@ -13,7 +13,7 @@ const Wedding = () => {
       <div className="w-full bg-color  bgimage ">
         <div className="h-96 py-20 mx-20 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center text-black">
+            <h1 className="text-right text-6xl uppercase font-bold content-center  fontclr">
               Wedding <br />
               stationery
             </h1>
@@ -21,14 +21,14 @@ const Wedding = () => {
         </div>
       </div>
 
-      <section className="text-gray-600 body-font">
+      <section className="text-gray-600 body-font bg-clr-design">
         <div className="container flex flex-wrap px-5 pt-16 pb-12 mx-16 items-center">
-          <div className="md:w-1/2 md:pr-12 md:py-8 mb-10 pb-10">
+          <div className="md:w-1/2 md:pr-12 md:py-8 mb-10 pb-10 clr-design ">
             <div className="hrline border-0 ">
               <hr />
             </div>
-            <div className="mt-8 text-black font-bold text-lg">
-              <h1 className="text-6xl uppercase leading-snug">
+            <div className="mt-8  font-bold text-lg clr-design ">
+              <h1 className="text-7xl uppercase leading-snug clr-design ">
                 It's your special day
               </h1>
               <p>

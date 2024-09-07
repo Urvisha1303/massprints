@@ -13,7 +13,7 @@ const Design = () => {
       <div className="w-full h-auto bg-color">
         <div className="h-68 py-20  mx-20 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center	 ">
+            <h1 className="text-right text-6xl uppercase font-bold content-center fontclr 	 ">
               Design Studio
             </h1>
           </div>
@@ -23,11 +23,11 @@ const Design = () => {
         </div>
       </div>
 
-      <section className="text-gray-600 body-font my-16">
+      <section className="text-gray-600 body-font my-16 bg-clr-design">
         <div className="container pt-16 pb-12  mx-20 ">
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 clr-design">
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
-              <hr className="w-24 rounded mt-6 mb-6 border-black" />
+              <hr className="w-24 rounded mt-6 mb-6 border-white" />
               <div className="h-full text-left text-sm pr-16">
                 <p className="leading-relaxed">
                   Our design team develops a wide variety of projects including
@@ -147,7 +147,7 @@ const Design = () => {
 
       <GetInTouch name={"get in touch"} alignClass={"text-right"} position={"left-0"}/>
       <Contactdetails/>
-      <Map/>
+      {/* <Map/> */}
     </>
   );
 };

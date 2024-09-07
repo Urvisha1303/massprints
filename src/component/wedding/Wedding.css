@@ -1,18 +1,33 @@
-.bgimage{
-    background-image: url("https://thelondonprinters.co.uk/wp-content/uploads/2019/10/wedding.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 430px;
+.bgimage {
+  background-image: url("https://thelondonprinters.co.uk/wp-content/uploads/2019/10/wedding.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 430px;
 }
 
-.borderbtblack{
-    border-bottom-width: 1px;
-    border-color:var(--black);
+.borderbtblack {
+  border-bottom-width: 1px;
+  border-color: var(--yellow);
 }
 
-.borderblue{
-    border-color:var(--blue-hover);
+.borderblue {
+  border-color: var(--blue);
 }
-.fontblue{
-    color: var(--blue-hover);
+.fontblue {
+  color: var(--blue);
+}
+.fontclr {
+  color: var(--blue);
+}
+
+.bg-clr-design {
+  background-color: var(--blue);
+  color: white;
+}
+.clr-design {
+  color: white;
+}
+
+.text-clr {
+  color: var(--blue);
 }

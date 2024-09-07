@@ -25,7 +25,7 @@ const Contactdetails = () => {
         </div>
         <div className=" mr-20 ml-6 leading-10 uppercase">
           <form action="">
-            <label htmlFor=" " className="text-xs formname">
+            <label htmlFor=" " className="text-sm formname">
               Name (Required)
             </label>
             <br />
@@ -34,7 +34,7 @@ const Contactdetails = () => {
               placeholder="Your Name"
               className=" rounded-md w-full h-10 border-x border-y pl-4  box-border text-sm inputnamecl mb-2 uppercase"
             />
-            <label htmlFor=" " className="text-xs formname">
+            <label htmlFor=" " className="text-sm formname">
               Email (required)
             </label>
             <br />
@@ -43,7 +43,7 @@ const Contactdetails = () => {
               placeholder="Your Email"
               className=" rounded-md w-full h-10 border-x border-y pl-4  box-border text-sm inputnamecl mb-2 uppercase"
             />
-            <label htmlFor=" " className="text-xs formname">
+            <label htmlFor=" " className="text-sm formname">
               Phone
             </label>
             <br />
@@ -52,7 +52,7 @@ const Contactdetails = () => {
               placeholder="Your Phone"
               className=" rounded-md w-full h-10 border-x border-y pl-4  box-border text-sm inputnamecl mb-2 uppercase"
             />
-            <label htmlFor=" " className="text-xs formname">
+            <label htmlFor=" " className="text-sm formname">
               Message
             </label>
             <br />
@@ -66,7 +66,7 @@ const Contactdetails = () => {
             <br />
             <button
               type="button"
-              className="text-white bg-blue-700 hrline font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 uppercase btnsend"
+              className="border-0 hrline font-medium text-sm px-5 py-2.5 me-2 mb-2 uppercase btnsend rounded-sm w-28 h-10"
             >
               send
             </button>

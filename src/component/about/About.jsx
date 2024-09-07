@@ -7,13 +7,13 @@ const About = () => {
       <div className="w-full h-auto bg-color">
         <div className="h-72 py-20  mx-20 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center	 ">
+            <h1 className="text-right text-6xl uppercase font-bold content-center	fontclr ">
               Who <br />
               We are
             </h1>
           </div>
         </div>
-        <div className="mx-20 hrline border-1 ">
+        <div className="mx-20 hrline border-0">
           <hr />
         </div>
       </div>

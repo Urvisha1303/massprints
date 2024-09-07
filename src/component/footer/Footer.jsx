@@ -8,14 +8,14 @@ import amex from "../../assets/amex.png";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-clr-blue dark:bg-gray-900 px-8">
-        <div className="mx-auto w-full max-w-screen-xl">
+      <footer className="bg-clr-blue dark:bg-gray-900 px-8 ">
+        <div className="mx-20 ">
           <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
             <div>
-              <h2 className="mb-6 text-xs font-semibold  uppercase whitecolorfont">
+              <h2 className="mb-6 text-sm font-semibold  uppercase whitecolorfont">
                 Contact
               </h2>
-              <ul className="  whitecolorfont  text-xs">
+              <ul className="  whitecolorfont  taxt-sm">
                 <p>
                   <h6 className="leading-6">Tel: 020 3818 5750</h6>
                   <h6>
@@ -50,10 +50,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-xs font-semibold whitecolorfont uppercase ">
+              <h2 className="mb-6 taxt-sm font-semibold whitecolorfont uppercase ">
                 Products
               </h2>
-              <ul className="  whitecolorfont text-xs leading-4">
+              <ul className="  whitecolorfont taxt-sm leading-4">
                 <li className="mb-4">
                   <a href="#" className="footerfontcolor">
                     Booklets
@@ -147,10 +147,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-xs font-semibold whitecolorfont uppercase">
+              <h2 className="mb-6 taxt-sm font-semibold whitecolorfont uppercase">
                 quick links
               </h2>
-              <ul className="whitecolorfont text-xs leading-4">
+              <ul className="whitecolorfont taxt-sm leading-4">
                 <li className="mb-4">
                   <a href="#" className="footerfontcolor">
                     Home
@@ -199,10 +199,10 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-xs font-semibold whitecolorfont uppercase">
+              <h2 className="mb-6 taxt-sm font-semibold whitecolorfont uppercase">
                 help
               </h2>
-              <ul className="whitecolorfont text-xs leading-4">
+              <ul className="whitecolorfont taxt-sm leading-4">
                 <li className="mb-4">
                   <a href="#" className="footerfontcolor">
                     payment
@@ -261,7 +261,7 @@ const Footer = () => {
               </ul>
               <br />
               <br />
-              <h2 className="mb-6 text-xs font-semibold whitecolorfont uppercase">
+              <h2 className="mb-6 taxt-sm font-semibold whitecolorfont uppercase">
                 WE accept payment
               </h2>
               <div className="grid grid-cols-3 gap-2 pb-8 gap-y-10 gap-x-3">

@@ -2,11 +2,11 @@ import React from "react";
 
 const GetInTouch = ({ name, alignClass, position }) => {
   return (
-    <div className="w-full h-auto bg-color mb-20">
+    <div className="w-full h-auto bg-color mb-20 get-touch-bg-color" style={{backgroundColor:"#131a3c"}}>
       <div className="h-72 py-20 mx-20 content-center	relative">
         <div>
           <h1
-            className={`${alignClass} text-6xl pt-16 uppercase font-bold content-center `}
+            className={`${alignClass} text-6xl pt-16 uppercase font-bold content-center text-white`}
           >
             {name}
           </h1>

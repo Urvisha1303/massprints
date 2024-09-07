@@ -13,16 +13,16 @@
 .fontsize1{
     font-size: 233px;
 }
-
+.fontclr {
+    color: var(--blue);
+  }
 
 
 .fontlightclr{
     color: var(--light-blue);
 }
 
-.fonrclr{
-    color: #292929;
-}
+
 .startupmusic-fontclr{
     color: var(--light-black);
 }

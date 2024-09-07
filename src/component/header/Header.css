@@ -1,21 +1,32 @@
-.gap{
-    column-gap: 2rem;
+.gap {
+  column-gap: 2rem;
 }
-.fontcolor{
-    color: var(--white);
-    height: 79px;
+.fontcolor {
+  color: var(--white);
+  height: 79px;
 }
-.fontcolor.active{
-    color: var(--blue-hover);
+.fontcolor.active {
+  color: var(--blue-hover);
 }
-.fontcolor:hover{
-    color: var(--blue-hover);
-    border-bottom-width: 1px;
-    border-color:var(--blue-hover);
-    
-    
+.fontcolor:hover {
+  color: var(--blue-hover);
+  border-bottom-width: 1px;
+  border-color: var(--blue-hover);
 }
-.bg-clr-blue{
-    background-color: var(--blue);
+.bg-clr-blue {
+  background-color: var(--blue);
 }
 
+.hoverblue:hover {
+  background-color: var(--blue) !important;
+  color: var(--yellow) !important;
+}
+
+.hoverblue:focus {
+  background-color: var(--yellow) !important;
+  color: var(--blue) !important;
+}
+.dropdownmenuhover:hover {
+  background-color: var(--blue) !important;
+  color: var(--yellow) !important;
+}

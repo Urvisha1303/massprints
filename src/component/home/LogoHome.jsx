@@ -4,7 +4,7 @@ const LogoHome = () => {
   return (
     <>
       <div className="logos mx-16 my-16">
-        <div className="slider-area bg-color pt-14">
+        <div className="slider-area bg-color pt-14 sliderbg">
           <h2>Our Clients</h2>
           <div className="wrapper">
             <div className="item">

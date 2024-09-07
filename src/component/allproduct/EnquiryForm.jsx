@@ -4,7 +4,7 @@ import './EnquiryForm.css'
 const EnquiryForm = () => {
   return (
     <div className="mx-16 my-20">
-    <h1 className="uppercase text-xl font-bold px-6 py-2 w-full h-auto bg-blue-600	text-white mb-4">
+    <h1 className="uppercase text-xl font-bold px-6 py-2 w-full h-auto bg-clr-design	text-white mb-4">
       Make an Enquiry
     </h1>
     <div className="grid grid-cols-3 gap-4 w-full h-auto mt-12 mb-36">
@@ -46,11 +46,11 @@ const EnquiryForm = () => {
           />
           <br />
           <button
-            type="button"
-            className="text-white bg-blue-700 hrline font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 uppercase btnsend"
-          >
-            Send Order
-          </button>
+              type="button"
+              className="border-0 hrline font-medium text-sm px-5 py-2.5 me-2 mt-8 mb-2 btnsend rounded-lg w-36 h-10"
+            >
+              Send Order
+            </button>
         </form>
       </div>
       <div className="col-span-1 mr-6 mt-5 d-flex">
@@ -80,13 +80,14 @@ const EnquiryForm = () => {
           >
             <i className="fa-solid fa-envelope footerfontcolor"></i>
             <span className="sr-only">Twitter page</span>
-
             <button
               type="button"
-              className="text-white bg-blue-700 mt-8 hrline font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 uppercase"
+              className="border-0 hrline font-medium text-sm px-5 py-2.5 me-2 mt-8 mb-2 uppercase btnsend rounded-lg w-36 h-10"
             >
               Contact <i className="fa-regular fa-envelope pl-4"></i>
             </button>
+            
+            
           </a>
         </div>
       </div>

@@ -13,13 +13,13 @@ const DigitalPublication = () => {
       <HeaderSection name={<>Digital <br />
         Publications</>}/>
 
-      <section className="text-gray-600 body-font">
-        <div className="container flex flex-wrap px-5 pt-16 pb-12 mx-16 items-center">
+      <section className="text-gray-600 body-font bg-clr-design ">
+        <div className="flex flex-wrap px-5 pt-16 pb-12 mx-16 my-20 items-center">
           <div className="md:w-1/2 md:pr-12 md:py-8 mb-10 pb-10">
             <div className="hrline border-0 ">
               <hr />
             </div>
-            <div className="mt-8 text-black font-bold text-lg">
+            <div className="mt-8 font-bold text-2xl clr-design">
               <p>
                 Today’s world is challenging businesses to rethink the ways in
                 which they communicate and collaborate. Digital publications are
@@ -44,8 +44,8 @@ const DigitalPublication = () => {
       </section>
 
       <section className="text-gray-600 body-font py-8">
-        <div className="container flex flex-wrap px-5  py-6 mx-16 items-center">
-          <h1 className="uppercase font-bold text-3xl text-black pb-6 borderbt inline-block">
+        <div className="flex flex-wrap px-5  py-6 mx-16 items-center">
+          <h1 className="uppercase font-bold text-3xl text-clr pb-6 borderbt border-0inline-block ">
             Digital publication preview
           </h1>
           <hr />
@@ -70,7 +70,7 @@ const DigitalPublication = () => {
       </div>
       <GetInTouch name={"get in touch"} alignClass={"text-right"} position={"left-0"}/>
       <Contactdetails/>
-      <Map/>
+      {/* <Map/> */}
     </>
   );
 };

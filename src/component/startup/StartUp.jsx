@@ -193,7 +193,7 @@ const StartUp = () => {
       />
 
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className=" px-5 py-24 mx-16 my-20">
           <div className="flex flex-wrap -mx-4 -mb-10 text-start">
             <div className="sm:w-1/2 mb-10 px-4">
               <div className="rounded-lg h-96 overflow-hidden">

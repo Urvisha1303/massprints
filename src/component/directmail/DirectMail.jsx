@@ -12,20 +12,20 @@ const DirectMail = () => {
       <div className="w-full bg-color  bgimage1 ">
         <div className="h-96 py-20 mx-20 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center text-white">
+            <h1 className="text-right text-6xl uppercase font-bold content-center text-white fontclr">
               Direct Mail services
             </h1>
           </div>
         </div>
       </div>
 
-      <section className="text-gray-600 body-font">
-        <div className="container flex flex-wrap px-5 pt-16 pb-12 mx-16 items-center">
+      <section className="text-gray-600 body-font bg-clr-design">
+        <div className="flex flex-wrap px-5 pt-16 pb-12 mx-16 my-16 items-center ">
           <div className="md:w-1/2 md:pr-12 md:py-8 mb-10 pb-10">
             <div className="hrline border-0 ">
               <hr />
             </div>
-            <div className="mt-8 text-black font-bold text-lg">
+            <div className="mt-8 text-black font-bold text-lg clr-design text-white">
               <p>
                 Our direct mail service is an efficient solution for all your
                 print distribution needs. After printing your products, we will
@@ -40,7 +40,8 @@ const DirectMail = () => {
           <div className="flex flex-col md:w-1/2 md:pl-12"></div>
         </div>
       </section>
-      <div className="flex mx-16">
+     <div className="bg-clr-design">
+     <div className="flex mx-16 ">
       <MailDecription
         headername={"What is Direct Mail?"}
         details={
@@ -60,6 +61,7 @@ const DirectMail = () => {
         }
       />
       </div>
+     </div>
 
       <section className="text-gray-600 body-font py-8 mx-16">
         <div className="p-4 mb-4 flex  ">
