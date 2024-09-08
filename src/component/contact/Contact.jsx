@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="w-full h-auto bg-color">
         <div className="h-96 sm:mx-16 content-center margin">
           <div>
-            <h1 className="text-right text-5xl uppercase font-bold content-center sm:mr-16 fontclr fonttext">
+            <h1 className="text-right text-5xl uppercase font-bold content-center sm:px-16 md:px-0 fontclr fonttext">
               Let's Get <br />
               Connected
             </h1>
