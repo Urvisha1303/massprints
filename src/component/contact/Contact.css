@@ -30,3 +30,9 @@
   border-bottom-width: 2px;
   border-color: var(--yellow);
 }
+@media screen and (max-width: 476px) {
+  .fonttext {
+    /* font-size: 20rem !important;  */
+
+  }
+}

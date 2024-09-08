@@ -9,10 +9,10 @@ const Footer = () => {
   return (
     <>
       <footer className="bg-clr-blue dark:bg-gray-900 px-8 ">
-        <div className="mx-20 ">
-          <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+        <div className="md:mx-20 sm:mx-10">
+          <div className="grid md:grid-cols-2 gap-8 px-4 py-6 lg:py-8 xl:grid-cols-4 sm:grid-cols-1 ">
             <div>
-              <h2 className="mb-6 text-sm font-semibold  uppercase whitecolorfont">
+              <h2 className="mb-6 text-lg font-semibold  uppercase whitecolorfont">
                 Contact
               </h2>
               <ul className="  whitecolorfont  taxt-sm">
@@ -50,7 +50,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 taxt-sm font-semibold whitecolorfont uppercase ">
+              <h2 className="mb-6 text-lg font-semibold whitecolorfont uppercase ">
                 Products
               </h2>
               <ul className="  whitecolorfont taxt-sm leading-4">
@@ -147,7 +147,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 taxt-sm font-semibold whitecolorfont uppercase">
+              <h2 className="mb-6 text-lg font-semibold whitecolorfont uppercase">
                 quick links
               </h2>
               <ul className="whitecolorfont taxt-sm leading-4">
@@ -199,7 +199,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 taxt-sm font-semibold whitecolorfont uppercase">
+              <h2 className="mb-6 text-lg font-semibold whitecolorfont uppercase">
                 help
               </h2>
               <ul className="whitecolorfont taxt-sm leading-4">
@@ -261,26 +261,29 @@ const Footer = () => {
               </ul>
               <br />
               <br />
-              <h2 className="mb-6 taxt-sm font-semibold whitecolorfont uppercase">
+              <h2 className="mb-6 text-lg font-semibold whitecolorfont uppercase">
                 WE accept payment
               </h2>
-              <div className="grid grid-cols-3 gap-2 pb-8 gap-y-10 gap-x-3">
+              <div className="grid md:grid-cols-3 md:gap-2 pb-8 gap-y-10 gap-x-3 sm:grid-cols-1 sm:w-full">
               <img
                 src={visa}
-                alt="payment"
+                alt="payment" className="sm:w-48"
               />
-              <img src={visadebit} alt="" />
+              <img src={visadebit} alt="" className="sm:w-48"/>
               <img
                 src={mastercard}
                 alt="payment"
+                className="sm:w-48"
               />
               <img
                 src={amex}
                 alt="payment"
+                className="sm:w-48"
               />
               <img
                 src={maestro}
                 alt="payment"
+                className="sm:w-48"
               />
               </div>
               
@@ -290,12 +293,12 @@ const Footer = () => {
       </footer>
       <hr  className="bg-clr-blue"/>
       <div className="bg-clr-blue dark:bg-gray-900 px-8">
-      <div className="px-4 py-6  md:flex md:items-center md:justify-between">
-        <span className="text-sm whitecolorfont  sm:text-center hitecolorfont">
+      <div className="px-4 py-6 md:flex sm:items-center sm:justify-between sm:w-full sm:text-center">
+        <span className="sm:text-lg whitecolorfont  sm:text-center hitecolorfont">
           © 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights
           Reserved.
         </span>
-        <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse whitecolorfont">
+        <div className="md:flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse whitecolorfont">
           <a
             href="https://www.facebook.com"
             className="whitecolorfont dark:hover:text-white"

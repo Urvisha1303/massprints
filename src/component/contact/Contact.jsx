@@ -6,21 +6,21 @@ const Contact = () => {
   return (
     <>
       <div className="w-full h-auto bg-color">
-        <div className="h-96 py-20 mx-20 content-center	">
+        <div className="h-96 sm:mx-16 content-center margin">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center fontclr	 ">
+            <h1 className="text-right text-6xl uppercase font-bold content-center fontclr fonttext">
               Let's Get <br />
               Connected
             </h1>
           </div>
         </div>
-        <div className="mx-20 hrline border-0 ">
+        <div className="mx-4 sm:mx-20 md:mx-16 pd-10 hrline border-0">
           <hr />
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 w-full h-auto mt-12  mb-12">
-        <div className="ml-20 mr-6 mt-5 d-flex">
+      <div className="grid md:grid-cols-3 gap-4 w-full h-auto mt-12 sm:mx-10 md:ml-16  mb-12">
+        <div className="mx-6 mt-5 d-flex ">
           <div className="mb-10 ">
             <h1
               className="uppercase font-bold borderbt"

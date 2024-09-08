@@ -32,12 +32,12 @@ import Stationery from "./component/allproduct/Stationery";
 import SingleLabelStickers from "./component/allproduct/SingleLabelStickers";
 import WindowStickers from "./component/allproduct/WindowStickers";
 import Home from "./component/home/Home";
-// import { MegaMenuDefault } from "./component/header/h";
+
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+       <BrowserRouter>
          <Header />
         <Routes>
           <Route path="/" element={<Home />} />
