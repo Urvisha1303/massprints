@@ -2,8 +2,8 @@ import React from 'react'
 
 const Contactdetails = () => {
   return (
-    <div className="grid grid-cols-2 gap-4 w-full h-auto mt-12  mb-36">
-        <div className="ml-20 mr-6 mt-5 d-flex">
+    <div className="grid grid-cols-0 md:grid-cols-2 gap-4 w-full h-auto mt-12  mb-36">
+        <div className="ml-6 md:ml-20 mr-2 md:mr-6 mt-5 d-flex">
           <div className="mb-10 ">
             <h1
               className="uppercase font-bold borderbt"

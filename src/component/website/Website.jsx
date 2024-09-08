@@ -30,21 +30,21 @@ const Website = () => {
   return (
     <>
       <div className="w-full h-auto bg-color">
-        <div className="h-68 py-20  mx-20 content-center	">
+        <div className="h-68 py-20  sm:mx-16 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center	fontclr ">
+            <h1 className="text-right text-6xl uppercase font-bold content-center	px-6 sm:px-16  fontclr ">
               Web Design
             </h1>
           </div>
         </div>
-        <div className="mx-20 hrline border-0 ">
+        <div className="mx-4 sm:mx-20 md:mx-16 pd-10 hrline border-0">
           <hr />
         </div>
       </div>
 
 
       <section className="text-gray-600 body-font">
-        <div className=" px-5 pt-40 pb-20 mx-20">
+        <div className=" px-0 md:px-5 pt-20 md:pt-40 pb-20 mx-10 md:mx-20 ">
           <div className="flex flex-col text-center w-full mb-20">
             <h2 className="text-xl leading-loose mb-1 tracking-widest">
               OUR WEBSITES
@@ -53,7 +53,7 @@ const Website = () => {
               INCLUDE THE FOLLOWING
             </h1>
           </div>
-          <div className="flex flex-wrap mx-12">
+          <div className="flex flex-wrap sm:mx-12">
             <WebsiteFeatureCard
               cardIcon={"fa-solid fa-pencil fa-flip-horizontal"}
               cardName={"Bespoke Design"}
@@ -100,8 +100,8 @@ const Website = () => {
         </div>
       </section>
 
-      <section className="text-gray-600 body-font mx-16">
-        <div className="mx-20 px-5 mb-28">
+      <section className="text-gray-600 body-font  mx-4 md:mx-16">
+        <div className="  px-0 md:px-5 pt-6 md:pt-20 md:pt-40 pb-20 mx-4 md:mx-20">
           <div className="flex flex-wrap -m-4">
             <DesignCard cardImagePath={towersalon} cardText={"Tower Salon"} />
             <DesignCard

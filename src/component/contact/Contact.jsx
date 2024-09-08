@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <>
       <div className="w-full h-auto bg-color">
-        <div className="h-96 sm:mx-16 content-center margin">
+        <div className="h-96 sm:mx-16  py-20 content-center margin">
           <div>
-            <h1 className="text-right text-5xl uppercase font-bold content-center sm:px-16 md:px-0 fontclr fonttext">
+            <h1 className="text-right text-5xl uppercase font-bold content-center px-6 md:px-16 fontclr fonttext">
               Let's Get <br />
               Connected
             </h1>

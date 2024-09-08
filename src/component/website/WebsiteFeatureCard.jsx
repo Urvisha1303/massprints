@@ -13,7 +13,7 @@ const WebsiteFeatureCard = ({cardName ,cardDetails, cardIcon}) => {
         </h2>
       </div>
       <div className="flex-grow">
-        <p className="leading-relaxed text-sm leading-7">
+        <p className="leading-relaxed text-lg md:text-sm  leading-7">
           {cardDetails}
         </p>
       </div>

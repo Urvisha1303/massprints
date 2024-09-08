@@ -239,7 +239,7 @@ const Header = () => {
 
   return (
     <div className="w-full">
-      <Navbar className="max-w-full bg-clr-blue rounded-none border-0 pl-8 pr-14 sm:pr-14 md:pr-20">
+      <Navbar className="max-w-full bg-clr-blue rounded-none border-0 pl-8 pr-14 pr-6 sm:pr-14 md:pr-20">
         <div className=" w-full h-20 py-4 flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"

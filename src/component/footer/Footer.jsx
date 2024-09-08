@@ -8,8 +8,8 @@ import amex from "../../assets/amex.png";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-clr-blue dark:bg-gray-900 px-8 ">
-        <div className="md:mx-20 sm:mx-10">
+      <footer className="bg-clr-blue dark:bg-gray-900 px-0 md:px-8 ">
+        <div className="mx-6 md:mx-20 sm:mx-10">
           <div className="grid md:grid-cols-2 gap-8 px-4 py-6 lg:py-8 xl:grid-cols-4 sm:grid-cols-1 ">
             <div>
               <h2 className="mb-6 text-lg font-semibold  uppercase whitecolorfont">

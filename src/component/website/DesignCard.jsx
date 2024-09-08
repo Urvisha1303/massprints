@@ -4,7 +4,7 @@
 const DesignCard = ({ cardImagePath, cardText }) => {
   return (
     <div className="lg:w-1/3 md:w-1/2 p-4 w-full">
-      <a className="block relative h-60 rounded overflow-hidden">
+      <a className="block relative  h-60 rounded overflow-hidden">
         <img
           alt="ecommerce"
           className="object-cover object-center w-full h-full block"
@@ -12,7 +12,7 @@ const DesignCard = ({ cardImagePath, cardText }) => {
         />
       </a>
       <div className="mt-4">
-        <h3 className=" text-sm tracking-wide text-black posternamehover  mb-1">
+        <h3 className="text-lg md:text-sm tracking-wide text-black posternamehover  mb-1">
           {cardText}
         </h3>
       </div>
