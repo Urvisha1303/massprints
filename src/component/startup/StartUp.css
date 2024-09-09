@@ -2,6 +2,7 @@
     background-image: url(https://thelondonprinters.co.uk/wp-content/uploads/2019/01/TLP_startup02.jpg);
     background-size: cover;
     height: 450px;
+    background-position: center top;
 }
 
 .bgstartupimg{
@@ -25,4 +26,12 @@
 
 .startupmusic-fontclr{
     color: var(--light-black);
+}
+
+@media only screen and (max-width: 600px) {
+    .bgstartupimg {
+        background-size: contain;
+        height: 300px;
+        width: 300px;
+    }
 }

@@ -5,16 +5,23 @@ import ornella from "../../assets/Ornella-Iannuzzi.jpg";
 import GetInTouch from "../GetInTouch";
 import Contactdetails from "../Contactdetails";
 import Map from "../Map";
-import HeaderSection from "../HeaderSection";
 
 const DigitalPublication = () => {
   return (
     <>
-      <HeaderSection name={<>Digital <br />
-        Publications</>}/>
+      <div className="w-full bg-color bgimage3 ">
+        <div className="h-68 py-20 mx-10 sm:mx-20 content-center	">
+          <div className=" mt-28">
+            <h1 className="text-right text-6xl mb-8 uppercase font-bold content-center text-white">
+              Digital <br />
+              Publications
+            </h1>
+          </div>
+        </div>
+      </div>
 
       <section className="text-gray-600 body-font bg-clr-design ">
-        <div className="flex flex-wrap px-5 pt-16 pb-12 mx-16 my-20 items-center">
+        <div className="flex flex-wrap px-5 pt-16 pb-12 mx-6 md:mx-16 my-20 items-center">
           <div className="md:w-1/2 md:pr-12 md:py-8 mb-10 pb-10">
             <div className="hrline border-0 ">
               <hr />
@@ -44,12 +51,12 @@ const DigitalPublication = () => {
       </section>
 
       <section className="text-gray-600 body-font py-8">
-        <div className="flex flex-wrap px-5  py-6 mx-16 items-center">
+        <div className="flex flex-wrap px-2 md:px-5 py-2 md:py-6 mx-4 md:mx-16 items-center">
           <h1 className="uppercase font-bold text-3xl text-clr pb-6 borderbt border-0inline-block ">
             Digital publication preview
           </h1>
           <hr />
-          <div className="lineclr mt-4 text-sm">
+          <div className="lineclr mt-4 text-xl md:text-sm">
             <a href="">Grove Square Galleries / Sierra Catalogue</a>
             <br />
             <a href="">Hanga Ten / The Master and The Apprentice</a>
@@ -57,7 +64,7 @@ const DigitalPublication = () => {
         </div>
       </section>
 
-      <div className="mx-20 mb-20">
+      <div className=" mx-6 md:mx-20 mb-20">
         <Slider
           sliderImage1={ornella}
           sliderImage2={
@@ -68,8 +75,12 @@ const DigitalPublication = () => {
           }
         />
       </div>
-      <GetInTouch name={"get in touch"} alignClass={"text-right"} position={"left-0"}/>
-      <Contactdetails/>
+      <GetInTouch
+        name={"get in touch"}
+        alignClass={"text-right"}
+        position={"left-0"}
+      />
+      <Contactdetails />
       {/* <Map/> */}
     </>
   );

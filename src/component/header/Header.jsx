@@ -132,14 +132,14 @@ function NavList({ setOpenNav }) {
         </Link>
       </Typography>
       <NavListMenu />
-      <Typography as="a" variant="small" className="font-medium">
+      {/* <Typography as="a" variant="small" className="font-medium">
         <Link to={"/wedding"} className="bg-clr-blue" onClick={() => setOpenNav(false)}>
           <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
             weddings
           </ListItem>
         </Link>
-      </Typography>
-      <Typography
+      </Typography> */}
+      {/* <Typography
         as="a"
         variant="small"
         color="blue-gray"
@@ -150,8 +150,8 @@ function NavList({ setOpenNav }) {
             dirct mail
           </ListItem>
         </Link>
-      </Typography>
-      <Typography
+      </Typography> */}
+      {/* <Typography
         as="a"
         variant="small"
         color="blue-gray"
@@ -162,8 +162,8 @@ function NavList({ setOpenNav }) {
             start-up business
           </ListItem>
         </Link>
-      </Typography>
-      <Typography
+      </Typography> */}
+      {/* <Typography
         as="a"
         variant="small"
         color="blue-gray"
@@ -174,7 +174,7 @@ function NavList({ setOpenNav }) {
             digital publications
           </ListItem>
         </Link>
-      </Typography>
+      </Typography> */}
       <Typography
         as="a"
         variant="small"
@@ -187,7 +187,7 @@ function NavList({ setOpenNav }) {
           </ListItem>
         </Link>
       </Typography>
-      <Typography
+      {/* <Typography
         as="a"
         variant="small"
         color="blue-gray"
@@ -198,7 +198,7 @@ function NavList({ setOpenNav }) {
             websites{" "}
           </ListItem>
         </Link>
-      </Typography>
+      </Typography> */}
       <Typography
         as="a"
         variant="small"

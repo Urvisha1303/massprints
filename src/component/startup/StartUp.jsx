@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 const StartUp = () => {
   return (
     <>
-      <div className="w-full bg-color  bgimage2 ">
-        <div className="h-96 py-20 mx-20 content-center	">
+      <div className="w-full bg-color bgimage2 ">
+        <div className="h-96 py-20  mx-6 md:mx-20 content-center	">
           <div className=" mt-28">
             <h1 className="text-left text-6xl mb-8 uppercase font-bold content-center text-white">
               Start-up package
@@ -22,13 +22,13 @@ const StartUp = () => {
       </div>
 
       <section className="text-gray-600 body-font">
-        <div className=" flex flex-wrap px-5 pt-16 pb-12 mx-20 mb-10 ">
-          <div className="md:w-1/2 md:py-8 mb-10 pb-10">
+        <div className=" flex flex-wrap md:px-5 pt-16 pb-12 mx-6 md:mx-20 mb-10 ">
+          <div className=" w-full md:w-1/2 md:py-8 mb-10 pb-10">
             <div className="hrline border-0 ">
               <hr />
             </div>
-            <div className="mt-8 text-black font-bold text-lg">
-              <h1 className="uppercase text-6xl font-bold leading-tight mb-6">
+            <div className="mt-8 text-black font-bold text-2xl md:text-lg">
+              <h1 className="uppercase  text-6xl font-bold leading-tight mb-6">
                 Get Ready <br /> to shine
               </h1>
               <p>
@@ -47,27 +47,27 @@ const StartUp = () => {
             </div>
           </div>
           <div>
-            <div className="  h-96 "></div>
-            <div className="bgstartupimg  ml-24 "></div>
+            <div className="  md:h-96 "></div>
+            <div className="bgstartupimg ml-6 md:ml-24 "></div>
           </div>
         </div>
       </section>
 
       <section className="text-gray-600 body-font ">
-        <div className=" flex flex-wrap pt-10  mx-20 mb-10 ">
-          <div className="flex flex-col flex-wrap lg:py-6 lg:w-1/2 pr-4 lg:text-left text-center">
+        <div className=" flex flex-wrap pt-10 mx-6 md:mx-20 mb-10 ">
+          <div className="flex flex-col flex-wrap md:py-6 w-full lg:w-1/2 md:pr-4 lg:text-left text-center">
             <div className="hrline border-0 w-16 ">
               <hr />
             </div>
-            <div className=" text-black mr-12 fontsize1 font-medium text-right h-80">
+            <div className=" text-black md:mr-12 fontsize1 font-medium text-right h-80">
               <h1>1</h1>
             </div>
             <div className="">
-              <h1 className="uppercase text-4xl font-bold leading-tight mb-6 text-black">
+              <h1 className="uppercase text-4xl font-bold leading-tight mb-6 text-black text-left">
                 Brand design <br />
                 and consultancy
               </h1>
-              <p className=" text-lg  text-sm leading-relaxed text-black">
+              <p className="text-lg leading-relaxed text-black text-left pb-6">
                 Developing a brand identity involves research, planning, concept
                 sketching, and design. Our team of designers is here to help you
                 through this process and create a brand that will reach its
@@ -84,7 +84,7 @@ const StartUp = () => {
               className="object-cover object-center h-full w-full"
               src="https://thelondonprinters.co.uk/wp-content/uploads/2019/01/TLPstartup01-1.jpg"
             />
-            <div className="absolute right-0 bottom-36 text-black text-right ">
+            <div className="absolute right-0  bottom-0 md:bottom-36 text-black text-right ">
               <hr className="w-32 text-right border-black botrder-1 inline-block" />
               <h1 className="uppercase font-bold text-xl pt-6 pb-4"> Design</h1>
               <p className="text-sm mt-4 fontlightclr leading-relaxed">
@@ -98,14 +98,14 @@ const StartUp = () => {
       </section>
 
       <section className="text-gray-600 body-font ">
-        <div className="flex flex-wrap pt-10 mx-20 mb-10 ">
+        <div className="flex flex-wrap pt-10 mx-6 md:mx-20 mb-10 ">
           <div className="lg:w-1/2 w-full mb-10 relative lg:mb-0 rounded-sm overflow-hidden">
             <img
               alt="feature"
               className="object-cover object-center h-full w-full"
               src="https://thelondonprinters.co.uk/wp-content/uploads/2019/01/TLPstartup02.jpg"
             />
-            <div className="absolute right-0 bottom-40 text-black text-start w-full">
+            <div className="absolute right-0  bottom-0 md:bottom-40 text-black text-start w-full">
               <hr className="w-32 text-right border-black botrder-1" />
               <h1 className="uppercase font-bold text-xl pt-10 pb-2"> Print</h1>
               <p className="text-sm mt-4 fontlightclr leading-relaxed">
@@ -118,14 +118,14 @@ const StartUp = () => {
             <div className="hrline border-0 w-16 self-end">
               <hr />
             </div>
-            <div className="text-black ml-12 fontsize1 font-medium text-left h-80">
+            <div className="text-black md:ml-12 fontsize1 font-medium text-left h-80">
               <h1>2</h1>
             </div>
             <div className="text-right">
               <h1 className="uppercase text-4xl font-bold leading-tight mb-6 text-black">
                 Print
               </h1>
-              <p className=" text-sm  text-sm leading-relaxed text-black">
+              <p className="text-lg leading-relaxed text-black">
                 Developing a brand identity involves research, planning, concept
                 sketching, and design. Our team of designers is here to help you
                 through this process and create a brand that will reach its
@@ -139,20 +139,20 @@ const StartUp = () => {
         </div>
       </section>
 
-      <section className="text-gray-600 body-font ">
-        <div className=" flex flex-wrap pt-10  mx-20 mb-10 ">
-          <div className="flex flex-col flex-wrap lg:py-6 lg:w-1/2 pr-4 lg:text-left text-center">
+      <section className="text-gray-600 body-font mb-20">
+        <div className=" flex flex-wrap pt-10 h-full mx-6 md:mx-20 mb-10 ">
+          <div className="flex flex-col flex-wrap md:py-6 w-full lg:w-1/2 md:pr-4 lg:text-left text-center">
             <div className="hrline border-0 w-16 ">
               <hr />
             </div>
-            <div className=" text-black mr-12 fontsize1 font-medium text-right h-80">
+            <div className="text-black md:mr-12 fontsize1 font-medium text-right h-80">
               <h1>3</h1>
             </div>
             <div className="">
-              <h1 className="uppercase text-4xl font-bold leading-tight mb-6 text-black">
+              <h1 className="uppercase text-4xl font-bold leading-tight mb-6 text-black text-left">
                 website
               </h1>
-              <p className=" text-lg  text-sm leading-relaxed text-black">
+              <p className="text-lg leading-relaxed text-black text-left pb-6">
                 A well designed, professional website goes hand-in-hand with
                 printed marketing materials to promote your business and
                 products. Our basic start-up package therefore includes a 5-page
@@ -165,14 +165,14 @@ const StartUp = () => {
               </p>
             </div>
           </div>
-          <div className="lg:w-1/2 w-full mb-10 relative lg:mb-0 rounded-sm overflow-hidden">
+          <div className="lg:w-1/2 w-full mb-10 relative lg:mb-0 rounded-sm overflow-visible">
             <img
               alt="feature"
               className="object-cover object-center h-full w-full"
               src="https://thelondonprinters.co.uk/wp-content/uploads/2019/01/TLPstartup03.jpg"
             />
-            <div className="absolute right-0 bottom-20 text-black text-right ">
-              <hr className="w-32 text-right border-black botrder-1 inline-block" />
+            <div className="absolute right-0 bottom-[-65px] md:bottom-40 text-black text-right z-1">
+              <hr className="w-32 text-right border-black border-1 inline-block" />
               <h1 className="uppercase font-bold text-xl pt-6 pb-4"> Design</h1>
               <p className="text-sm mt-4 fontlightclr leading-relaxed">
                 Wordpress template <br />
@@ -193,10 +193,10 @@ const StartUp = () => {
       />
 
       <section className="text-gray-600 body-font">
-        <div className=" px-5 py-24 mx-16 my-20">
-          <div className="flex flex-wrap -mx-4 -mb-10 text-start">
-            <div className="sm:w-1/2 mb-10 px-4">
-              <div className="rounded-lg h-96 overflow-hidden">
+        <div className=" md:px-5 md:py-24 mx-6 md:mx-16 my-20">
+          <div className="flex flex-wrap md:mx-4 -mb-10 text-start">
+            <div className="sm:w-1/2 mb-10 md:px-4">
+              <div className="rounded-lg h-68 md:h-96 overflow-hidden">
                 <Link to="/musicart">
                   <img
                     alt="content"
@@ -210,14 +210,14 @@ const StartUp = () => {
               </h2>
               <p className="text-sm">Conceptual Concerts</p>
             </div>
-            <div className="sm:w-1/2 mb-10 px-4">
-              <div className="rounded-lg h-96 overflow-hidden">
+            <div className="sm:w-1/2 mb-10 md:px-4">
+              <div className="rounded-lg h-68 md:h-96 overflow-hidden">
                 <Link to="/rachelclare">
-                <img
-                  alt="content"
-                  className="object-cover object-center h-full w-full"
-                  src="https://thelondonprinters.co.uk/wp-content/uploads/2019/01/Rachel-flyers.jpg"
-                />
+                  <img
+                    alt="content"
+                    className="object-cover object-center h-full w-full"
+                    src="https://thelondonprinters.co.uk/wp-content/uploads/2019/01/Rachel-flyers.jpg"
+                  />
                 </Link>
               </div>
               <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">

@@ -52,8 +52,8 @@ function App() {
           <Route path="/startup" element={<StartUp />}></Route>
           <Route path="/musicart" element={<MusicArt />}></Route>
           <Route path="/rachelclare" element={<RachelClare />}></Route>
-          <Route path="/directmail" element={<DirectMail />}></Route>
-          <Route path="/wedding" element={<Wedding />}></Route>
+          {/* <Route path="/directmail" element={<DirectMail />}></Route> */}
+          {/* <Route path="/wedding" element={<Wedding />}></Route> */}
           <Route path="/allproduct" element={<AllProduct />}></Route>
           <Route
             path="/saddle-stitched-booklets"

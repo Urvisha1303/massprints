@@ -13,7 +13,7 @@ const Design = () => {
       <div className="w-full h-auto bg-color">
         <div className="h-68 py-20  mx-10 md:mx-16 content-center	">
           <div>
-            <h1 className="text-right text-5xl md:text-6xl uppercase font-bold content-center fontclr 	 ">
+            <h1 className="text-right text-4xl sm:text-5xl md:text-6xl uppercase font-bold content-center fontclr">
               Design Studio
             </h1>
           </div>
@@ -70,10 +70,10 @@ const Design = () => {
 
       <section className="text-gray-600 body-font">
         <div className="w-full flex flex-wrap px-5 py-24 ">
-          <div className=" text-center w-full md:w-1/4 ">
+          <div className=" text-center w-full md:w-1/4 ml-6">
             <div className="">
               <div className=" mr-6 mt-2 d-flex">
-                <div className="mb-10 md:mr-6 mx:10 md:mx-16">
+                <div className="mb-10 md:mr-6">
                   <h1
                     className="font-bold borderbt leading-loose pb-4 text-left text-xl text-black"
                     style={{ width: "125px" }}

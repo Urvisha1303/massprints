@@ -29,7 +29,7 @@ const Footer = () => {
                     </a>
                   </h6>
                 </p>
-                <br />
+                {/* <br />
                 <br />
                 <p className="leading-6">
                   Opening Hours: <br />
@@ -42,9 +42,9 @@ const Footer = () => {
                   Our address: <br />
                   1st Floor, Portland House <br /> 164 New Cavendish Street{" "}
                   <br /> London W1W 6YT
-                </p>
+                </p>*/}
                 <br />
-                <br />
+                <br /> 
 
                 <p className="leading-6">By appointment only</p>
               </ul>
@@ -264,26 +264,26 @@ const Footer = () => {
               <h2 className="mb-6 text-lg font-semibold whitecolorfont uppercase">
                 WE accept payment
               </h2>
-              <div className="grid md:grid-cols-3 md:gap-2 pb-8 gap-y-10 gap-x-3 sm:grid-cols-1 sm:w-full">
+              <div className="grid md:grid-cols-2 md:gap-2 pb-8 gap-y-10 gap-x-3 sm:grid-cols-1 sm:w-full">
               <img
                 src={visa}
-                alt="payment" className="sm:w-48"
+                alt="payment" className="sm:w-44"
               />
-              <img src={visadebit} alt="" className="sm:w-48"/>
+              <img src={visadebit} alt="" className="sm:w-44"/>
               <img
                 src={mastercard}
                 alt="payment"
-                className="sm:w-48"
+                className="sm:w-44"
               />
-              <img
+              {/* <img
                 src={amex}
                 alt="payment"
                 className="sm:w-48"
-              />
+              /> */}
               <img
                 src={maestro}
                 alt="payment"
-                className="sm:w-48"
+                className="sm:w-44"
               />
               </div>
               

@@ -10,9 +10,9 @@ const DirectMail = () => {
   return (
     <>
       <div className="w-full bg-color  bgimage1 ">
-        <div className="h-96 py-20 mx-20 content-center	">
+        <div className="h-96 py-20 mx-6 md:mx-20 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center text-white fontclr">
+            <h1 className="text-right text-5xl md:text-6xl uppercase font-bold content-center text-white fontclr">
               Direct Mail services
             </h1>
           </div>
