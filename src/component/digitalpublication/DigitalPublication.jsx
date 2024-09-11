@@ -1,10 +1,10 @@
 import React from "react";
 import "./DigitalPublication.css";
 import Slider from "../Slider";
-import ornella from "../../assets/Ornella-Iannuzzi.jpg";
+// import ornella from "../../assets/Ornella-Iannuzzi.jpg";
 import GetInTouch from "../GetInTouch";
 import Contactdetails from "../Contactdetails";
-import Map from "../Map";
+// import Map from "../Map";
 
 const DigitalPublication = () => {
   return (
@@ -66,7 +66,7 @@ const DigitalPublication = () => {
 
       <div className=" mx-6 md:mx-20 mb-20">
         <Slider
-          sliderImage1={ornella}
+          sliderImage1={"https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"}
           sliderImage2={
             "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
           }

@@ -1,11 +1,10 @@
-import React from "react";
+
 import "./Design.css";
 
-import ornella from "../../assets/Ornella-Iannuzzi.jpg";
 import Slider from "../Slider";
 import GetInTouch from "../GetInTouch";
 import Contactdetails from "../Contactdetails";
-import Map from "../Map";
+// import Map from "../Map";
 
 const Design = () => {
   return (
@@ -91,7 +90,7 @@ const Design = () => {
             </div>
             <div>
               <Slider
-                sliderImage1={ornella}
+                sliderImage1={"https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"}
                 sliderImage2={
                   "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
                 }
@@ -116,7 +115,7 @@ const Design = () => {
             </div>
             <div>
               <Slider
-                sliderImage1={ornella}
+                sliderImage1={"https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"}
                 sliderImage2={
                   "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
                 }

@@ -2,7 +2,7 @@ import "./DesignCard.css";
 // eslint-disable-next-line react/prop-types
 const DesignCard = ({ cardImagePath, cardText }) => {
   return (
-    <div className="box lg:w-1/3 md:w-1/2 p-4 w-full">
+    <div className="box p-4 w-full">
       <div className="card ">
         <div className="imgBx">
           <img
