@@ -5,5 +5,9 @@
 
 .sliderbg{
     background-color: var(--blue);
+    color: var(--blue);
+}
+.sliderHomebg{
+    background-color: var(--blue);
     color: var(--yellow);
 }

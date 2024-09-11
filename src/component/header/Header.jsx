@@ -132,6 +132,13 @@ function NavList({ setOpenNav }) {
         </Link>
       </Typography>
       <NavListMenu />
+      <Typography as="a" variant="small" className="font-medium">
+        <Link to={"/flyersleaflets"} className="bg-clr-blue" onClick={() => setOpenNav(false)}>
+          <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">
+          Flyers & Leaflets
+          </ListItem>
+        </Link>
+      </Typography>
       {/* <Typography as="a" variant="small" className="font-medium">
         <Link to={"/wedding"} className="bg-clr-blue" onClick={() => setOpenNav(false)}>
           <ListItem className="flex items-center gap-2 py-2 pr-4 uppercase text-white hoverblue bg-transparent-50/50">

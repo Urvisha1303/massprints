@@ -3,9 +3,9 @@ import "./LogoHome.css";
 const LogoHome = () => {
   return (
     <>
-      <div className="logos mx-16 my-16">
-        <div className="slider-area bg-color pt-14 sliderbg">
-          <h2>Our Clients</h2>
+      <div className="logos sliderbg">
+        <div className="slider-area bg-color pt-14  mx-16 ">
+          <h2 className="mb-10 logoclient">Our Clients</h2>
           <div className="wrapper">
             <div className="item">
               <img src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Netflix-300x300.png" />

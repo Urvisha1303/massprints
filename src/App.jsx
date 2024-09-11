@@ -32,6 +32,7 @@ import Stationery from "./component/allproduct/Stationery";
 import SingleLabelStickers from "./component/allproduct/SingleLabelStickers";
 import WindowStickers from "./component/allproduct/WindowStickers";
 import Home from "./component/home/Home";
+import FlyersLeaflets from "./component/Flyers & Leaflets/FlyersLeaflets";
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
           <Route path="/startup" element={<StartUp />}></Route>
           <Route path="/musicart" element={<MusicArt />}></Route>
           <Route path="/rachelclare" element={<RachelClare />}></Route>
+          <Route path="/flyersleaflets" element={<FlyersLeaflets />}></Route>
           {/* <Route path="/directmail" element={<DirectMail />}></Route> */}
           {/* <Route path="/wedding" element={<Wedding />}></Route> */}
           <Route path="/allproduct" element={<AllProduct />}></Route>

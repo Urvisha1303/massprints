@@ -52,11 +52,11 @@ const SliderHome = () => {
   return (
     <div
       id="indicators-carousel"
-      className="relative bg-color mx-20 my-20 "
+      className="relative sliderHomebg "
       data-carousel="static"
     >
       {/* Carousel wrapper */}
-      <div className="relative h-56 md:h-80 flex justify-center items-center overflow-hidden rounded-lg   sliderbg">
+      <div className="relative h-56 md:h-80 flex justify-center items-center overflow-hidden rounded-lg mx-20 sliderHomebg">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -67,7 +67,7 @@ const SliderHome = () => {
             {slide.type === "text" && (
               <blockquote className="text-center p-8 px-60 text-xl pb-20 text-white">
                 {slide.content}
-                <h1 className="mt-4 text-lg font-semibold sliderbg">{slide.name}</h1>
+                <h1 className="mt-4 text-lg font-semibold sliderHomebg">{slide.name}</h1>
               </blockquote>
             )}
           </div>

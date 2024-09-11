@@ -1,0 +1,9 @@
+.tableRowbg{
+    background-color: #e8e8e8;
+}
+.tableHeadbg{
+    background-color : #f2f2f25c;
+}
+tr:nth-child(even) {
+    background-color : #f2f2f25c;
+}

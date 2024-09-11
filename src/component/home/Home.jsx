@@ -45,21 +45,21 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="mx-20 pt-10">
+      {/* <div className="mx-20 pt-10">
         <hr className="w-full hrline" />
-      </div>
+      </div> */}
       <SliderHome />
-      <div className="mx-20">
+      {/* <div className="mx-20">
         <hr className="w-full hrline" />
-      </div>
+      </div> */}
 
-      <div className="mx-20 pt-40">
+      {/* <div className="mx-20 pt-40">
         <hr className="w-full hrline" />
-      </div>
+      </div> */}
       <LogoHome />
-      <div className="mx-20">
+      {/* <div className="mx-20">
         <hr className="w-full hrline" />
-      </div>
+      </div> */}
 
       <div className="sliderbg ">
         <div className="mx-20 mt-20 mb-40 ">

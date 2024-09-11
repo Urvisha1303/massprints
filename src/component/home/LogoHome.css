@@ -43,10 +43,14 @@ body {
 .wrapper:hover .item {
   animation-play-state: paused;
 }
+.logoclient{
+  font-size: 40px;
+    font-weight: 900;
+}
 
 .sliderbg {
-  background-color: var(--blue);
-  color: var(--yellow);
+  background-color: #f2f2f25c;
+  color: var(--blue);
 }
 @keyframes animate {
   0% {
