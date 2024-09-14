@@ -1,11 +1,10 @@
-import React from "react";
 import "./LogoHome.css";
 const LogoHome = () => {
   return (
     <>
       <div className="logos sliderbg">
         <div className="slider-area bg-color pt-14  mx-16 ">
-          <h2 className="mb-10 logoclient">Our Clients</h2>
+          <h1 className="mb-10 text-3xl logoclient">Our Clients</h1>
           <div className="wrapper">
             <div className="item">
               <img src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Netflix-300x300.png" />

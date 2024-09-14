@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.css";
 import HomeSlider from "../HomeSlider";
 import CardHome from "./CardHome";
@@ -12,16 +11,16 @@ const Home = () => {
       <div className="w-full h-auto mb-20">
         <div className="h-72 py-20 mx-20 content-center	relative">
           <hr className="w-full absolute top-24 hrline" />
-          <div className="w-full grid  grid-cols-2 my-16">
-            <div className="  ">
+          <div className="w-full grid grid-cols-2 my-16 theme-color">
+            <div>
               <h1 className="text-xl uppercase font-bold	">opening Hours:</h1>
               <h1 className="text-xl uppercase font-bold	">
                 Monday - Friday from 10am to 5pm
               </h1>
               <p>by appointment only</p>
             </div>
-            <div className="text-end text-center font-bold	">
-              <h1 className="uppercase text-4xl ">Our Top SELLERS</h1>
+            <div className="text-end text-center font-bold">
+              <h1 className="uppercase text-4xl">Our Top SELLERS</h1>
             </div>
           </div>
           <hr className="w-full absolute top-50 hrline" />
@@ -35,7 +34,7 @@ const Home = () => {
           <div className="w-full grid  grid-cols-2 my-16">
             <div className="  "></div>
             <div className="text-end text-center font-bold	">
-              <h1 className="uppercase text-3xl ">
+              <h1 className="theme-color uppercase text-3xl ">
                 Same-day delivery is now available <br />
                 on some digitally-printed products
               </h1>

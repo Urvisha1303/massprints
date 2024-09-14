@@ -72,3 +72,7 @@
   border-color: var(--yellow);
   border-bottom-width: 1px;
 }
+
+.theme-color {
+  color: var(--blue);
+}
