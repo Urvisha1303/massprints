@@ -18,15 +18,14 @@ const Footer = () => {
               </h2>
               <ul className="  whitecolorfont  taxt-sm">
                 <p>
-                  <h6 className="leading-6">Tel: 020 3818 5750</h6>
                   <h6>
                     Email:{" "}
                     <a
-                      href="mailto:zTzPd@example.com"
+                      href="mailto:info@themassprints.com"
                       className="footerfontcolor"
                     >
                       {" "}
-                      zTzPd@example.com
+                      info@themassprints.com
                     </a>
                   </h6>
                 </p>
@@ -47,7 +46,7 @@ const Footer = () => {
                 <br />
                 <br />
 
-                <p className="leading-6">By appointment only</p>
+                {/* <p className="leading-6">By appointment only</p> */}
               </ul>
             </div>
             <div>
@@ -154,11 +153,13 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li className="mb-4">
-                  <Link to={"/wire-bound-documents"} className="footerfontcolor">
-                  Wire Bound Documents
+                  <Link
+                    to={"/wire-bound-documents"}
+                    className="footerfontcolor"
+                  >
+                    Wire Bound Documents
                   </Link>
                 </li>
-               
               </ul>
             </div>
             <div>
@@ -178,7 +179,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-4">
                   <Link to={"/flyersleaflets"} className="footerfontcolor">
-                  Flyers & Leaflets
+                    Flyers & Leaflets
                   </Link>
                 </li>
                 <li className="mb-4">
@@ -203,7 +204,7 @@ const Footer = () => {
                   </a>
                 </li> */}
                 <li className="mb-4">
-                  <Link to={"/about"}className="footerfontcolor">
+                  <Link to={"/about"} className="footerfontcolor">
                     About
                   </Link>
                 </li>

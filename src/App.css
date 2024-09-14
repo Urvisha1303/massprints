@@ -41,30 +41,34 @@
   color: #888;
 } */
 
-
-*{
-  font-family: "Roboto Condensed", sans-serif;
+@font-face {
+  font-family: Mondapick;
+  src: url(./fonts/Mondapick.ttf);
 }
 
-:root{
-  --blue:#131a3c;
+* {
+  font-family: "Mondapick", sans-serif;
+}
+
+:root {
+  --blue: #131a3c;
   --blue-hover: #1976d2;
-  --bg-black : rgba(0, 0, 0, 0.7);
-  --white : #fff;
+  --bg-black: rgba(0, 0, 0, 0.7);
+  --white: #fff;
   --black: #000000;
   --offWhite: #fafafa;
-  --light-black:#4d4d4d;
-  --grayblack : #000000;
-  --light-blue:rgb(25, 118, 210);
+  --light-black: #4d4d4d;
+  --grayblack: #000000;
+  --light-blue: rgb(25, 118, 210);
   --yellow: #ffc107;
 }
-.lineclr{
+.lineclr {
   color: var(--yellow);
 }
-.get-touch-bg-color{
+.get-touch-bg-color {
   background-color: var(--blue);
 }
-.hrline{
+.hrline {
   border-color: var(--yellow);
   border-bottom-width: 1px;
 }

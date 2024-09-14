@@ -58,7 +58,7 @@ body{
   z-index: 1;
   }
   
-  .card:hover .imgBx
+  .card .imgBx
   {
     bottom: 80px;
   }

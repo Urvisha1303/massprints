@@ -81,7 +81,7 @@ function NavListMenu({setOpenNav}) {
             className="font-medium hoverblue"
           >
             <ListItem
-              className="flex items-center gap-2 py-2 pr-4 font-medium text-gray-900 text-white hoverblue bg-transparent-50/50 "
+              className="flex items-center gap-2 py-2 pr-4 font-medium text-gray-900 text-white hoverblue bg-transparent-50/50 uppercase"
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}  
             >
