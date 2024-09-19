@@ -51,16 +51,16 @@
 }
 
 :root {
-  --blue: #131a3c;
+  --blue: #000057;
   --blue-hover: #1976d2;
   --bg-black: rgba(0, 0, 0, 0.7);
-  --white: #fff;
+  --white: #FFFFFF;
   --black: #000000;
   --offWhite: #fafafa;
   --light-black: #4d4d4d;
   --grayblack: #000000;
   --light-blue: rgb(25, 118, 210);
-  --yellow: #ffc107;
+  --yellow: #FF7D05;
 }
 .lineclr {
   color: var(--yellow);

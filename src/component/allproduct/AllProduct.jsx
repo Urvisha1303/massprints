@@ -7,20 +7,20 @@ const AllProduct = () => {
   return (
     <>
       <div className="w-full h-auto bg-color">
-        <div className="h-68 py-20  mx-20 content-center	">
+        <div className="h-68 py-20  md:mx-16 content-center	">
           <div>
-            <h1 className="text-right text-6xl uppercase font-bold content-center	fontclr ">
+            <h1 className="text-right text-4xl sm:text-5xl md:text-6xl px-10 sm:px-16 uppercase font-bold content-center	fontclr ">
               All products
             </h1>
           </div>
         </div>
-        <div className="mx-20 hrline ">
+        <div className="mx-6 sm:mx-10 md:mx-16 pd-10 hrline">
           <hr />
         </div>
       </div>
 
-      <section className="text-gray-600 body-font mx-16 my-32 h-auto">
-        <div className="px-5 mb-28 mx-auto">
+      <section className="text-gray-600 body-font mx-6 sm:mx-10 md:mx-16 h-auto">
+        <div className="pt-16 pb-12 ">
           <div className="flex flex-wrap -m-4">
             <Link to={'/business-cards'}>
               <DesignCard

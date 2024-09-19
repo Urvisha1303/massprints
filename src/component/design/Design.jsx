@@ -10,9 +10,9 @@ const Design = () => {
   return (
     <>
       <div className="w-full h-auto bg-color">
-        <div className="h-68 py-20  mx-10 md:mx-16 content-center	">
+        <div className="h-68 py-20 md:mx-16 content-center	">
           <div>
-            <h1 className="text-right text-4xl sm:text-5xl md:text-6xl uppercase font-bold content-center fontclr">
+            <h1 className="text-right text-4xl sm:text-5xl md:text-6xl px-10 sm:px-16 uppercase font-bold content-center fontclr">
               Design Studio
             </h1>
           </div>

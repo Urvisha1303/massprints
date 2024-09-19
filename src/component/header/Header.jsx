@@ -17,7 +17,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
-import headerimg from "../../assets/1.png";
+import headerimg from "../../assets/themassprints1.png";
 import "./Header.css";
 
 const navListMenuItems = [
@@ -254,7 +254,7 @@ const Header = () => {
             className="mr-4 cursor-pointer py-1.5 lg:ml-2"
           >
             <Link to={"/"}>
-              <img src={headerimg} className="w-full h-28" />
+              <img src={headerimg} className="w-full h-16" />
             </Link>
           </Typography>
           <div className="hidden xl:block">

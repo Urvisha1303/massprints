@@ -1,8 +1,6 @@
 .formname {
-    color: var(--light-black);
-  }
-  .fontclr {
-    color: var(--blue);
-  }
-
-  
+  color: var(--light-black);
+}
+.fontclr {
+  color: var(--blue);
+}
