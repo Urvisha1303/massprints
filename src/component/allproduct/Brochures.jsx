@@ -184,7 +184,7 @@ const Brochures = () => {
 
       <EnquiryForm />
 
-      <Map />
+      {/* <Map /> */}
     </>
   );
 };

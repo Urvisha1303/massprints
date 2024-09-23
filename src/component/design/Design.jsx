@@ -84,7 +84,7 @@ const Design = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-3/4 mr:10 md:mr-16">
+          <div className="w-full md:w-3/4 mr-4 sm:mr-20 md:mr-16">
             <div className="mb-3 w-full">
               <hr />
             </div>
@@ -109,7 +109,7 @@ const Design = () => {
 
       <section className="text-gray-600 body-font">
         <div className="w-full flex flex-wrap px-5 py-24 ">
-          <div className="w-full md:w-3/4 ml:10md:ml-16">
+          <div className="w-full md:w-3/4 ml:10 md:ml-16">
             <div className="mb-3 w-full">
               <hr />
             </div>

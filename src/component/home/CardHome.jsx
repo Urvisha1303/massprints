@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const CardHome = () => {
   return (
     <>
-      <div className="mx-16 my-20">
-        <div className="card__container grid grid-cols-4">
+      <div className="mx-6 md:mx-20 my-6 md:my-20">
+        <div className="card__container grid md:grid-cols-4">
           <article className="card__article">
             <img
               src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Greeting-Cards-2.jpg"

@@ -236,7 +236,7 @@ const Banners = () => {
         textTranform={"uppercase"}
       />
       <EnquiryForm/>
-      <Map/>
+      {/* <Map/> */}
     
     </>
 )}

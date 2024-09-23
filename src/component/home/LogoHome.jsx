@@ -3,9 +3,9 @@ const LogoHome = () => {
   return (
     <>
       <div className="logos sliderbg">
-        <div className="slider-area bg-color pt-14  mx-16 ">
-          <h1 className="mb-10 text-3xl logoclient">Our Clients</h1>
-          <div className="wrapper">
+        <div className="slider-area bg-color pt-10 md:pt-14 mx-6  md:mx-20 ">
+          <h1 className="mb-4 md:mb-10 text-3xl logoclient">Our Clients</h1>
+          <div className="wrapper md:p-10">
             <div className="item">
               <img src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Netflix-300x300.png" />
             </div>
