@@ -4,17 +4,15 @@ import DetailsSection from "../DetailsSection";
 import Card from "../Card";
 import AccordionComponent from "../AccordionComponent";
 import Table from "../Table";
-import Map from "../Map";
 import EnquiryForm from "./EnquiryForm";
+import PostCard_Digital from "../../assets/postcard_digital.jpg";
 
 const Posters = () => {
   return (
     <>
-      <HeaderSection name={"Posters"} />
+      <HeaderSection name={"Posters (Digital)"} />
       <DetailsSection
-        image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_posters.jpg"
-        }
+        image={PostCard_Digital}
         description={
           <>
             We produce eye-catching posters on a range of stocks at a variety of
@@ -160,7 +158,6 @@ const Posters = () => {
 
       <Table />
       <EnquiryForm />
-      <Map />
     </>
   );
 };

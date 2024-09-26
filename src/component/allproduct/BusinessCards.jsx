@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "../Card";
 import AccordionComponent from "../AccordionComponent";
-import Map from "../Map";
 import HeadingContent from "../HeadingContent";
 import Table from "../Table";
 import EnquiryForm from "./EnquiryForm";
 import HeaderSection from "../HeaderSection";
 import DetailsSection from "../DetailsSection";
+import business_Cards_Main from '../../assets/business_Cards_Main.jpg'
 
 const BusinessCards = () => {
   return (
@@ -14,7 +14,7 @@ const BusinessCards = () => {
       <HeaderSection name={" Business Cards"} />
       <DetailsSection
         image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Business-cards-TLP2.jpg"
+          business_Cards_Main
         }
         description={
           <>
@@ -173,7 +173,7 @@ const BusinessCards = () => {
 
       <EnquiryForm />
 
-      <Map />
+    
     </>
   );
 };

@@ -2,7 +2,14 @@ import React from "react";
 import "./AllProduct.css";
 import DesignCard from "../website/DesignCard";
 import { Link } from "react-router-dom";
-
+import business_card from "../../assets/business_card.jpg";
+import folder_Leaflets from "../../assets/folded_Leaflets.jpg";
+import leaflets from "../../assets/leaflets.jpg";
+import presentation_Folder from "../../assets/presentation_folder.jpg";
+import perfect_Bound_Booklets from "../../assets/perfect_bound_booklets.jpg";
+import Saddle_Stitch_Booklet from "../../assets/saddle_stitch_booklet.jpg";
+import PostCard from "../../assets/postcard.jpg";
+import PostCard_Digital from "../../assets/postcard_digital.jpg";
 const AllProduct = () => {
   return (
     <>
@@ -22,143 +29,126 @@ const AllProduct = () => {
       <section className="text-gray-600 body-font mx-6 sm:mx-10 md:mx-16 h-auto">
         <div className="pt-16 pb-12 ">
           <div className="flex flex-wrap -m-4">
-            <Link to={'/business-cards'}>
+            <Link to={"/business-cards"}>
               <DesignCard
-                cardImagePath={
-                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Business-cards-TLP-768x512.jpg"
-                }
+                cardImagePath={business_card}
                 cardText={"Business Cards"}
               />
             </Link>
-            <Link to={'/brochures'}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_brochures-768x512.jpg"
-              }
-              cardText={"Brochures"}
-            />
+            <Link to={"/brochures"}>
+              <DesignCard
+                cardImagePath={
+                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_brochures-768x512.jpg"
+                }
+                cardText={"Brochures"}
+              />
             </Link>
-            <Link to={'/banners'}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_banners-768x512.jpg"
-              }
-              cardText={"Banners"}
-            />
+            <Link to={"/banners"}>
+              <DesignCard
+                cardImagePath={
+                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_banners-768x512.jpg"
+                }
+                cardText={"Banners"}
+              />
             </Link>
             <Link to={"/display-boards"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_compliment-768x512.jpg"
-              }
-              cardText={"Display Boards"}
-            />
+              <DesignCard
+                cardImagePath={
+                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_compliment-768x512.jpg"
+                }
+                cardText={"Display Boards"}
+              />
             </Link>
             <Link to={"/folded-leaflets"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Invoice-books2-1-768x512.jpg"
-              }
-              cardText={"Folded Leaflets"}
-            />
+              <DesignCard
+                cardImagePath={folder_Leaflets}
+                cardText={"Folded Leaflets"}
+              />
             </Link>
-            <Link to={'/leaflets-flyers'}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2-768x512.jpg"
-              }
-              cardText={"Leaflets & Flyers"}
-            />
+            <Link to={"/leaflets-flyers"}>
+              <DesignCard
+                cardImagePath={leaflets}
+                cardText={"Leaflets & Flyers"}
+              />
             </Link>
-            <Link to={'/presentation-folders'}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_folders-768x512.jpg"
-              }
-              cardText={"Presentation Folders"}
-            />
+            <Link to={"/presentation-folders"}>
+              <DesignCard
+                cardImagePath={presentation_Folder}
+                cardText={"Presentation Folders"}
+              />
             </Link>
             <Link to={"/perfect-bound-documents"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Greeting-Cards-2-768x512.jpg"
-              }
-              cardText={"Perfect Bound Documents"}
-            />
+              <DesignCard
+                cardImagePath={perfect_Bound_Booklets}
+                cardText={"Perfect Bound Documents"}
+              />
             </Link>
             <Link to={"/posters-large-format"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_postcards-768x512.jpg"
-              }
-              cardText={"Posters (Large Format)"}
-            />
+              <DesignCard
+                cardImagePath={PostCard}
+                cardText={"Posters (Large Format)"}
+              />
             </Link>
             <Link to={"/posters"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_posters-768x512.jpg"
-              }
-              cardText={"Posters (Digital & Litho)"}
-            />
+              <DesignCard
+                cardImagePath={PostCard_Digital}
+                cardText={"Posters (Digital & Litho)"}
+              />
             </Link>
             <Link to={"/roller-banners"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2-768x512.jpg"
-              }
-              cardText={"Roller Banners"}
-            />
+              <DesignCard
+                cardImagePath={
+                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2-768x512.jpg"
+                }
+                cardText={"Roller Banners"}
+              />
             </Link>
             <Link to={"/roller-labels-stickers"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2-768x512.jpg"
-              }
-              cardText={"Roller Labels & Sticker Sheet Labels & Stickers"}
-            />
+              <DesignCard
+                cardImagePath={
+                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2-768x512.jpg"
+                }
+                cardText={"Roller Labels & Sticker Sheet Labels & Stickers"}
+              />
             </Link>
             <Link to={"/stationery"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2-768x512.jpg"
-              }
-              cardText={"Stationery"}
-            />
+              <DesignCard
+                cardImagePath={
+                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2-768x512.jpg"
+                }
+                cardText={"Stationery"}
+              />
             </Link>
             <Link to={"/single-labels-stickers"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_invitations-768x512.jpg"
-              }
-              cardText={"Single Labels & Stickers"}
-            />
+              <DesignCard
+                cardImagePath={
+                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_invitations-768x512.jpg"
+                }
+                cardText={"Single Labels & Stickers"}
+              />
             </Link>
-            <Link to={'/saddle-stitched-booklets'}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_products_lookbook-768x512.jpg"
-              }
-              cardText={"Saddle Stitched Booklets"}
-            />
+            <Link to={"/saddle-stitched-booklets"}>
+              <DesignCard
+                cardImagePath={Saddle_Stitch_Booklet}
+                cardText={"Saddle Stitched Booklets"}
+              />
             </Link>
             <Link to={"/window-stickers"}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_dissertation-768x512.jpg"
-              }
-              cardText={"Window Stickers"}
-            />
+              <DesignCard
+                cardImagePath={
+                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_dissertation-768x512.jpg"
+                }
+                cardText={"Window Stickers"}
+              />
             </Link>
-            <Link to={'/wire-bound-documents'}>
-            <DesignCard
-              cardImagePath={
-                "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Wire-binding-documents-768x512.jpg"
-              }
-              cardText={"Wire Bound Documents"}
-            />
+            <Link to={"/wire-bound-documents"}>
+              <DesignCard
+                cardImagePath={
+                  "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Wire-binding-documents-768x512.jpg"
+                }
+                cardText={"Wire Bound Documents"}
+              />
             </Link>
-            
           </div>
         </div>
       </section>

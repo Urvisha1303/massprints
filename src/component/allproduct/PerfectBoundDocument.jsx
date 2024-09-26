@@ -2,19 +2,17 @@ import React from "react";
 import AccordionComponent from "../AccordionComponent";
 import Table from "../Table";
 import EnquiryForm from "./EnquiryForm";
-import Map from "../Map";
 import Card from "../Card";
 import DetailsSection from "../DetailsSection";
 import HeaderSection from "../HeaderSection";
+import perfect_Bound_Booklets from "../../assets/perfect_bound_booklets.jpg";
 
 const PerfectBoundDocument = () => {
   return (
     <>
       <HeaderSection name={" Perfect Bound Documents"} />
       <DetailsSection
-        image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Wire-binding-documents.jpg"
-        }
+        image={perfect_Bound_Booklets}
         description={
           <>
             {" "}
@@ -27,7 +25,7 @@ const PerfectBoundDocument = () => {
       />
 
       <section className="text-gray-600 body-font py-8 mx-16">
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-4">
           <Card
             cardname="Paper stock"
             cardDetails={
@@ -170,7 +168,7 @@ const PerfectBoundDocument = () => {
 
       <Table />
       <EnquiryForm />
-      <Map />
+      
     </>
   );
 };

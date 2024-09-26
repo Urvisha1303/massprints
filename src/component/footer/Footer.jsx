@@ -281,7 +281,7 @@ const Footer = () => {
               <h2 className="mb-6 text-lg font-semibold whitecolorfont uppercase">
                 WE accept payment
               </h2>
-              <div className="grid md:grid-cols-2 md:gap-2 pb-8 gap-y-10 gap-x-3 sm:grid-cols-1 sm:w-full">
+              <div className="grid md:grid-cols-2 md:gap-4 pb-8 gap-y-4 md:gap-y-4 gap-x-4 sm:grid-cols-1 w-32 md:w-52">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                   <path
                     fill="#ffffff"

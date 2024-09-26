@@ -5,12 +5,13 @@ import Map from "../Map";
 import EnquiryForm from "./EnquiryForm";
 import HeaderSection from "../HeaderSection";
 import DetailsSection from "../DetailsSection";
+import Saddle_Stitch_Booklet from "../../assets/saddle_stitch_booklet.jpg";
 
 const SaddleStitchedBooklets = () => {
   return (
     <>
     <HeaderSection name={<>Saddle Stitched <br /> Booklets</>}/>
-    <DetailsSection image={"https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_products_lookbook.jpg"} description={<> Our saddle-stitched and perfect-bound booklets will help you
+    <DetailsSection image={Saddle_Stitch_Booklet} description={<> Our saddle-stitched and perfect-bound booklets will help you
                 make an impression on your clients, presenting your products and
                 services in a high-quality, professional form.</>}/>
 

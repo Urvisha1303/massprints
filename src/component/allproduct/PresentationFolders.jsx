@@ -5,8 +5,7 @@ import Card from "../Card";
 import AccordionComponent from "../AccordionComponent";
 import HeadingContent from "../HeadingContent";
 import EnquiryForm from "./EnquiryForm";
-import Map from "../Map";
-
+import presentation_Folder from "../../assets/presentation_folder.jpg";
 
 const PresentationFolders = () => {
   return (
@@ -15,7 +14,7 @@ const PresentationFolders = () => {
 
       <DetailsSection
         image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_folders.jpg"
+          presentation_Folder
         }
         description={
           "Presentation folders form part of our stationery range that also includes business cards, compliment slips, labels, and letterheads. Our customisable folders are available in a variety of card stocks and can include extra features like business card slots and the option to choose your capacity, so they're the perfect fit for your content. "
@@ -170,7 +169,6 @@ const PresentationFolders = () => {
         textTranform={"uppercase"}
       />
       <EnquiryForm/>
-      <Map/>
     </>
   );
 };

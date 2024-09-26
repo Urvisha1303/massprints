@@ -7,6 +7,7 @@ import Map from '../Map'
 import Card from '../Card'
 import DetailsSection from '../DetailsSection'
 import HeaderSection from '../HeaderSection'
+import folded_Leaflets_Main from '../../assets/folded_Leaflets_Main.jpg'
 
 const FoldedLeaflets = () => {
   return (
@@ -14,7 +15,7 @@ const FoldedLeaflets = () => {
     <HeaderSection name={"Folded leaflets "} />
     <DetailsSection
       image={
-        "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2.jpg"
+        folded_Leaflets_Main
       }
       description={
         <>

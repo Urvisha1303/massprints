@@ -4,9 +4,9 @@ import AccordionComponent from "../AccordionComponent";
 import HeadingContent from "../HeadingContent";
 import Table from "../Table";
 import EnquiryForm from "./EnquiryForm";
-import Map from "../Map";
 import HeaderSection from "../HeaderSection";
 import DetailsSection from "../DetailsSection";
+import leaflets_Main from "../../assets/leaflets_Main.jpg";
 
 const LeafletsFlyers = () => {
   return (
@@ -14,7 +14,7 @@ const LeafletsFlyers = () => {
       <HeaderSection name={"leaflets & flyers"} />
       <DetailsSection
         image={
-          "https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Leaflets-2.jpg"
+          leaflets_Main
         }
         description={
           <>
@@ -173,7 +173,6 @@ const LeafletsFlyers = () => {
       <Table />
 
       <EnquiryForm />
-      <Map />
     </>
   );
 };
