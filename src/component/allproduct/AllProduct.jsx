@@ -7,7 +7,7 @@ import folder_Leaflets from "../../assets/folded_Leaflets.jpg";
 import leaflets from "../../assets/leaflets.jpg";
 import presentation_Folder from "../../assets/presentation_Folder.jpg";
 import perfect_Bound_Booklets from "../../assets/perfect_Bound_Booklets.jpg";
-import Saddle_Stitch_Booklet from "../../assets/Saddle_Stitch_Booklets.jpg";
+import Saddle_Stitch_Booklet from "../../assets/Saddle_Stitch_Booklet.jpg";
 import PostCard from "../../assets/PostCard.jpg";
 import PostCard_Digital from "../../assets/PostCard_Digital.jpg";
 const AllProduct = () => {
