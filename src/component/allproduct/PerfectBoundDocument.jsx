@@ -5,7 +5,7 @@ import EnquiryForm from "./EnquiryForm";
 import Card from "../Card";
 import DetailsSection from "../DetailsSection";
 import HeaderSection from "../HeaderSection";
-import perfect_Bound_Booklets from "../../assets/perfect_bound_booklets.jpg";
+import perfect_Bound_Booklets from "../../assets/perfect_Bound_Booklets.jpg";
 
 const PerfectBoundDocument = () => {
   return (

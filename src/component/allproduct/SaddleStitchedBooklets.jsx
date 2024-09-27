@@ -5,19 +5,32 @@ import Map from "../Map";
 import EnquiryForm from "./EnquiryForm";
 import HeaderSection from "../HeaderSection";
 import DetailsSection from "../DetailsSection";
-import Saddle_Stitch_Booklet from "../../assets/saddle_stitch_booklet.jpg";
+import Saddle_Stitch_Booklet from "../../assets/Saddle_Stitch_Booklet.jpg";
 
 const SaddleStitchedBooklets = () => {
   return (
     <>
-    <HeaderSection name={<>Saddle Stitched <br /> Booklets</>}/>
-    <DetailsSection image={Saddle_Stitch_Booklet} description={<> Our saddle-stitched and perfect-bound booklets will help you
-                make an impression on your clients, presenting your products and
-                services in a high-quality, professional form.</>}/>
-
+      <HeaderSection
+        name={
+          <>
+            Saddle Stitched <br /> Booklets
+          </>
+        }
+      />
+      <DetailsSection
+        image={Saddle_Stitch_Booklet}
+        description={
+          <>
+            {" "}
+            Our saddle-stitched and perfect-bound booklets will help you make an
+            impression on your clients, presenting your products and services in
+            a high-quality, professional form.
+          </>
+        }
+      />
 
       <section className="text-gray-600 body-font py-8 mx-16">
-      <div className="grid grid-cols-3">
+        <div className="grid grid-cols-3">
           <Card
             cardname="Paper stock"
             cardDetails={
@@ -157,8 +170,7 @@ const SaddleStitchedBooklets = () => {
         />
       </div>
 
-    
-<EnquiryForm/>
+      <EnquiryForm />
       <Map />
     </>
   );

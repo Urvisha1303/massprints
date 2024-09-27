@@ -1,20 +1,19 @@
-import React from 'react'
-import AccordionComponent from '../AccordionComponent'
-import Table from '../Table'
-import EnquiryForm from './EnquiryForm'
-import Map from '../Map'
-import DetailsSection from '../DetailsSection'
-import HeaderSection from '../HeaderSection'
-import Card from '../Card'
-import PostCard from "../../assets/postcard.jpg";
+import React from "react";
+import AccordionComponent from "../AccordionComponent";
+import Table from "../Table";
+import EnquiryForm from "./EnquiryForm";
+import Map from "../Map";
+import DetailsSection from "../DetailsSection";
+import HeaderSection from "../HeaderSection";
+import Card from "../Card";
+import PostCard from "../../assets/PostCard.jpg";
 
 const PostersLargeFormat = () => {
   return (
     <>
       <HeaderSection name={"Posters "} />
       <DetailsSection
-        image={
-          PostCard}
+        image={PostCard}
         description={
           <>
             We produce eye-catching posters on a range of stocks at a variety of
@@ -159,10 +158,10 @@ const PostersLargeFormat = () => {
       </div>
 
       <Table />
-      <EnquiryForm/>
+      <EnquiryForm />
       <Map />
     </>
-  )
-}
+  );
+};
 
-export default PostersLargeFormat
+export default PostersLargeFormat;

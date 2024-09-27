@@ -5,7 +5,7 @@ import Card from "../Card";
 import AccordionComponent from "../AccordionComponent";
 import HeadingContent from "../HeadingContent";
 import EnquiryForm from "./EnquiryForm";
-import presentation_Folder from "../../assets/presentation_folder.jpg";
+import presentation_Folder from "../../assets/presentation_Folder.jpg";
 
 const PresentationFolders = () => {
   return (

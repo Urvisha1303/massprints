@@ -5,7 +5,7 @@ import Card from "../Card";
 import AccordionComponent from "../AccordionComponent";
 import Table from "../Table";
 import EnquiryForm from "./EnquiryForm";
-import PostCard_Digital from "../../assets/postcard_digital.jpg";
+import PostCard_Digital from "../../assets/PostCard_Digital.jpg";
 
 const Posters = () => {
   return (

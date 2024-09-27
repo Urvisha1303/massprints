@@ -2,14 +2,14 @@ import React from "react";
 import "./AllProduct.css";
 import DesignCard from "../website/DesignCard";
 import { Link } from "react-router-dom";
-import business_card from "../../assets/business_card.jpg";
+import business_card from "../../assets/business_Card.jpg";
 import folder_Leaflets from "../../assets/folded_Leaflets.jpg";
 import leaflets from "../../assets/leaflets.jpg";
 import presentation_Folder from "../../assets/presentation_folder.jpg";
-import perfect_Bound_Booklets from "../../assets/perfect_bound_booklets.jpg";
-import Saddle_Stitch_Booklet from "../../assets/saddle_stitch_booklet.jpg";
-import PostCard from "../../assets/postcard.jpg";
-import PostCard_Digital from "../../assets/postcard_digital.jpg";
+import perfect_Bound_Booklets from "../../assets/perfect_Bound_Booklets.jpg";
+import Saddle_Stitch_Booklet from "../../assets/Saddle_Stitch_Booklets.jpg";
+import PostCard from "../../assets/PostCard.jpg";
+import PostCard_Digital from "../../assets/PostCard_Digital.jpg";
 const AllProduct = () => {
   return (
     <>
