@@ -1,6 +1,14 @@
 import React from "react";
 import "./CardHome.css";
 import { Link } from "react-router-dom";
+import business_card from "../../assets/business_Card.jpg";
+import folder_Leaflets from "../../assets/folded_Leaflets.jpg";
+import leaflets from "../../assets/leaflets.jpg";
+import presentation_Folder from "../../assets/presentation_Folder.jpg";
+import perfect_Bound_Booklets from "../../assets/perfect_Bound_Booklets.jpg";
+import Saddle_Stitch_Booklet from "../../assets/Saddle_Stitch_Booklet.jpg";
+import PostCard from "../../assets/PostCard.jpg";
+import PostCard_Digital from "../../assets/PostCard_Digital.jpg";
 
 const CardHome = () => {
   return (
@@ -9,14 +17,14 @@ const CardHome = () => {
         <div className="card__container grid md:grid-cols-4">
           <article className="card__article">
             <img
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Greeting-Cards-2.jpg"
+              src={business_card}
               alt="image"
               className="card__img h-64 rounded-xl"
             />
 
             <div className="card__data">
-              <h2 className="card__title">Display Boards</h2>
-              <Link to="/display-boards" className="card__button">
+              <h2 className="card__title">Business Cards</h2>
+              <Link to="/business-cards" className="card__button">
                 Read More
               </Link>
             </div>
@@ -24,14 +32,14 @@ const CardHome = () => {
 
           <article className="card__article">
             <img
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2019/10/wedding.jpg"
+              src={folder_Leaflets}
               alt="image"
               className="card__img h-64 rounded-xl"
             />
 
             <div className="card__data">
-              <h2 className="card__title">Wedding stationery</h2>
-              <Link to="/wedding" className="card__button">
+              <h2 className="card__title">Folded Leaflets</h2>
+              <Link to="/folded-leaflets" className="card__button">
                 Read More
               </Link>
             </div>
@@ -39,84 +47,84 @@ const CardHome = () => {
 
           <article className="card__article">
             <img
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2021/08/Mail-service-scaled.jpg"
+              src={leaflets}
               alt="image"
               className="card__img h-64 rounded-xl"
             />
 
             <div className="card__data">
-              <h2 className="card__title">Direct Mail services</h2>
-              <Link to="/directmail" className="card__button">
+              <h2 className="card__title">Leaflets & Flyers</h2>
+              <Link to="/leaflets-flyers" className="card__button">
                 Read More
               </Link>
             </div>
           </article>
           <article className="card__article">
             <img
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Wire-binding-documents.jpg"
+              src={presentation_Folder}
               alt="image"
               className="card__img h-64 rounded-xl"
             />
 
             <div className="card__data">
-              <h2 className="card__title">Wire Bound Documents</h2>
-              <Link to="/wire-bound-documents" className="card__button">
+              <h2 className="card__title">Presentation Folders</h2>
+              <Link to="/presentation-folders" className="card__button">
                 Read More
               </Link>
             </div>
           </article>
           <article className="card__article">
             <img
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Wire-binding-documents.jpg"
+              src={perfect_Bound_Booklets}
               alt="image"
               className="card__img h-64 rounded-xl"
             />
 
             <div className="card__data">
-              <h2 className="card__title">Wire Bound Documents</h2>
-              <Link to="/wire-bound-documents" className="card__button">
+              <h2 className="card__title">Perfect Bound Documents</h2>
+              <Link to="/perfect-bound-documents" className="card__button">
                 Read More
               </Link>
             </div>
           </article>
           <article className="card__article">
             <img
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Wire-binding-documents.jpg"
+              src={Saddle_Stitch_Booklet}
               alt="image"
               className="card__img h-64 rounded-xl"
             />
 
             <div className="card__data">
-              <h2 className="card__title">Wire Bound Documents</h2>
-              <Link to="/wire-bound-documents" className="card__button">
+              <h2 className="card__title">Saddle Stitched Booklets</h2>
+              <Link to="/saddle-stitched-booklets" className="card__button">
                 Read More
               </Link>
             </div>
           </article>
           <article className="card__article">
             <img
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Wire-binding-documents.jpg"
+              src={PostCard}
               alt="image"
               className="card__img h-64 rounded-xl"
             />
 
             <div className="card__data">
-              <h2 className="card__title">Wire Bound Documents</h2>
-              <Link to="/wire-bound-documents" className="card__button">
+              <h2 className="card__title">Posters (Large Format)</h2>
+              <Link to="/posters-large-format" className="card__button">
                 Read More
               </Link>
             </div>
           </article>
           <article className="card__article">
             <img
-              src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/TheLondonPrinters_Homepage_Wire-binding-documents.jpg"
+              src={PostCard_Digital}
               alt="image"
               className="card__img h-64 rounded-xl"
             />
 
             <div className="card__data">
-              <h2 className="card__title">Wire Bound Documents</h2>
-              <Link to="/wire-bound-documents" className="card__button">
+              <h2 className="card__title">Posters (Digital & Litho</h2>
+              <Link to="/posters" className="card__button">
                 Read More
               </Link>
             </div>

@@ -38,8 +38,6 @@ const LogoHome = () => {
             <img src="https://thelondonprinters.co.uk/wp-content/uploads/2020/01/Katerina-Perez-300x300.png" />
             </div>
           </div>
-          
-
         </div>
       </div>
     </>
