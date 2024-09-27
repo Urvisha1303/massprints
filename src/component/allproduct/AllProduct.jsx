@@ -28,7 +28,7 @@ const AllProduct = () => {
 
       <section className="text-gray-600 body-font mx-6 sm:mx-10 md:mx-16 h-auto">
         <div className="pt-16 pb-12 ">
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 justify-around">
             <Link to={"/business-cards"}>
               <DesignCard
                 cardImagePath={business_card}

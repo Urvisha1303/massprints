@@ -49,6 +49,10 @@
 * {
   font-family: "Mondapick", sans-serif;
 }
+.mondapick{
+  font-family:  "Mondapick", sans-serif !important;
+
+}
 
 :root {
   --blue: #000057;

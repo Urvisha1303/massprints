@@ -123,7 +123,7 @@ const CardHome = () => {
             />
 
             <div className="card__data">
-              <h2 className="card__title">Posters (Digital & Litho</h2>
+              <h2 className="card__title">Posters (Digital & Litho)</h2>
               <Link to="/posters" className="card__button">
                 Read More
               </Link>

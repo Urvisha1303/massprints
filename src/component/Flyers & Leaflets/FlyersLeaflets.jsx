@@ -1,5 +1,5 @@
 import React from "react";
-import flyers from "../../assets/flyers.jpg";
+import flyers from "../../assets/Leaflets_3.jpg";
 import './FlyersLeaflets.css'
 
 const FlyersLeaflets = () => {

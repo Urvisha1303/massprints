@@ -18,7 +18,7 @@ const HomeSlider = () => {
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-3xl mondapick md:text-4xl lg:text-5xl"
             >
               Saddle Stitched <br /> Booklets
             </Typography>
@@ -45,7 +45,7 @@ const HomeSlider = () => {
             <Typography
               variant="h1"
               color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-3xl mondapick md:text-4xl lg:text-5xl"
             >
               Folded leaflets
             </Typography>
