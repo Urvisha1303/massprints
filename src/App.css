@@ -46,9 +46,9 @@
   src: url(./fonts/Mondapick.ttf);
 }
 
-/* * {
+* {
   font-family: "Mondapick", sans-serif;
-} */
+}
 
 :root {
   --blue: #000057;
