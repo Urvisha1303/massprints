@@ -25,7 +25,7 @@ const HomeSlider = () => {
             
             <div className="flex justify-end gap-2 mondapick">
               <Link to={"/saddle-stitched-booklets"}>
-              <Button size="lg" color="white">
+              <Button size="lg" color="white" className="mondapick">
                 Explore
               </Button>
               </Link>
@@ -49,9 +49,9 @@ const HomeSlider = () => {
             >
               Folded leaflets
             </Typography>
-            <div className="flex justify-end gap-2 mondapick">
+            <div className="flex justify-end gap-2 ">
               <Link to={"/folded-leaflets"}>
-              <Button size="lg" color="white">
+              <Button size="lg" color="white" className="mondapick">
                 Explore
               </Button>
               </Link>
