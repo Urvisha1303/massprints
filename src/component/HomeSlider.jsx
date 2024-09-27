@@ -23,7 +23,7 @@ const HomeSlider = () => {
               Saddle Stitched <br /> Booklets
             </Typography>
             
-            <div className="flex justify-end gap-2">
+            <div className="flex justify-end gap-2 mondapick">
               <Link to={"/saddle-stitched-booklets"}>
               <Button size="lg" color="white">
                 Explore
@@ -49,7 +49,7 @@ const HomeSlider = () => {
             >
               Folded leaflets
             </Typography>
-            <div className="flex justify-end gap-2">
+            <div className="flex justify-end gap-2 mondapick">
               <Link to={"/folded-leaflets"}>
               <Button size="lg" color="white">
                 Explore

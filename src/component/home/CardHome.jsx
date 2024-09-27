@@ -14,7 +14,7 @@ const CardHome = () => {
   return (
     <>
       <div className="mx-6 md:mx-20 my-6 md:my-20">
-        <div className="card__container grid md:grid-cols-4">
+        <div className="card__container grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-5 w-full">
           <article className="card__article">
             <img
               src={business_card}
