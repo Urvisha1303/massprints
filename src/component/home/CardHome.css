@@ -18,6 +18,8 @@
   --small-font-size: .813rem;
 }
 
+
+
 /*========== Responsive typography ==========*/
 @media screen and (min-width: 1120px) {
   :root {
